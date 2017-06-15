@@ -92,4 +92,3 @@ private[spark] class PAFSchedulingAlgorithm extends SchedulingAlgorithm {
     res < 0
   }
 }
-

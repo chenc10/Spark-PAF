@@ -21,6 +21,7 @@ import java.io.{FileInputStream, InputStream}
 import java.util.{NoSuchElementException, Properties}
 
 import scala.xml.XML
+
 import org.apache.spark.{Logging, SparkConf}
 import org.apache.spark.util.Utils
 
@@ -152,7 +153,8 @@ private[spark] class FairSchedulableBuilder(val rootPool: Pool, conf: SparkConf)
   }
 }
 
-// add by cc
+
+
 private[spark] class PAFSchedulableBuilder(val rootPool: Pool)
   extends SchedulableBuilder with Logging {
   // TO DO: create initial PAF pool

@@ -50,7 +50,7 @@ private[spark] class Pool(
   var parent: Pool = null
 
   // add by cc
-  var targetAlloc = 0.0;
+  var targetAlloc = 0.0
   var allResources = 32.0
   var alpha = 0.5
   var curve: scala.collection.mutable.Buffer[Double] = null
@@ -260,7 +260,6 @@ private[spark] class Pool(
       }
     }
   }
-
 
   var taskSetSchedulingAlgorithm: SchedulingAlgorithm = {
     schedulingMode match {
