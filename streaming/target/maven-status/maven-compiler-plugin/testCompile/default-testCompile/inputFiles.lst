@@ -1,0 +1,8 @@
+/media/psf/Home/PropheticScheduling/spark-1.6.1/streaming/src/test/java/org/apache/spark/streaming/JavaStreamingListenerAPISuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/streaming/src/test/java/org/apache/spark/streaming/JavaMapWithStateSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/streaming/src/test/java/org/apache/spark/streaming/LocalJavaStreamingContext.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/streaming/src/test/java/org/apache/spark/streaming/JavaWriteAheadLogSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/streaming/src/test/java/org/apache/spark/streaming/JavaDurationSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/streaming/src/test/java/org/apache/spark/streaming/JavaTimeSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/streaming/src/test/java/org/apache/spark/streaming/JavaReceiverAPISuite.java

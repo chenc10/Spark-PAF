@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete dir="/media/psf/Home/PropheticScheduling/spark-1.6.1/assembly/../python/lib/pyspark.zip"/>
+  <zip destfile="/media/psf/Home/PropheticScheduling/spark-1.6.1/assembly/../python/lib/pyspark.zip">
+    <fileset dir="/media/psf/Home/PropheticScheduling/spark-1.6.1/assembly/../python/" includes="pyspark/**/*"/>
+  </zip>
+</target>
+</project>

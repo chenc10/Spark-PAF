@@ -1,0 +1,17 @@
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/test/org/apache/spark/JavaTaskContextCompileCheck.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/JavaAPISuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/memory/TestMemoryConsumer.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOnHeapSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/util/collection/TestTimSort.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/test/org/apache/spark/JavaTaskCompletionListenerImpl.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOffHeapSuite.java

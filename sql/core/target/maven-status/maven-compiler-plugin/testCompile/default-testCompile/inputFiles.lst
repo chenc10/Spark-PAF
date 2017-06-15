@@ -1,0 +1,16 @@
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/gen-java/org/apache/spark/sql/execution/datasources/parquet/test/avro/Suit.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/gen-java/org/apache/spark/sql/execution/datasources/parquet/test/avro/AvroArrayOfArray.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/gen-java/org/apache/spark/sql/execution/datasources/parquet/test/avro/AvroOptionalPrimitives.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/gen-java/org/apache/spark/sql/execution/datasources/parquet/test/avro/ParquetEnum.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/java/test/org/apache/spark/sql/JavaApplySchemaSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/gen-java/org/apache/spark/sql/execution/datasources/parquet/test/avro/AvroNonNullableArrays.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/gen-java/org/apache/spark/sql/execution/datasources/parquet/test/avro/CompatibilityTest.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/gen-java/org/apache/spark/sql/execution/datasources/parquet/test/avro/AvroMapOfArray.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/java/test/org/apache/spark/sql/sources/JavaSaveLoadSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/gen-java/org/apache/spark/sql/execution/datasources/parquet/test/avro/AvroPrimitives.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/java/test/org/apache/spark/sql/JavaUDFSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/gen-java/org/apache/spark/sql/execution/datasources/parquet/test/avro/Nested.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/java/test/org/apache/spark/sql/JavaRowSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/java/test/org/apache/spark/sql/JavaDatasetSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/java/test/org/apache/spark/sql/JavaDataFrameSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/sql/core/src/test/gen-java/org/apache/spark/sql/execution/datasources/parquet/test/avro/ParquetAvroCompat.java

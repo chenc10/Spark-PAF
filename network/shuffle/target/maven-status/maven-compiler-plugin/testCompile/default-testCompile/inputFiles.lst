@@ -1,0 +1,10 @@
+/media/psf/Home/PropheticScheduling/spark-1.6.1/network/shuffle/src/test/java/org/apache/spark/network/shuffle/ExternalShuffleCleanupSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/network/shuffle/src/test/java/org/apache/spark/network/sasl/SaslIntegrationSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/network/shuffle/src/test/java/org/apache/spark/network/shuffle/ExternalShuffleSecuritySuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/network/shuffle/src/test/java/org/apache/spark/network/shuffle/OneForOneBlockFetcherSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/network/shuffle/src/test/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolverSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/network/shuffle/src/test/java/org/apache/spark/network/shuffle/TestShuffleDataContext.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/network/shuffle/src/test/java/org/apache/spark/network/shuffle/RetryingBlockFetcherSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/network/shuffle/src/test/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandlerSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/network/shuffle/src/test/java/org/apache/spark/network/shuffle/ExternalShuffleIntegrationSuite.java
+/media/psf/Home/PropheticScheduling/spark-1.6.1/network/shuffle/src/test/java/org/apache/spark/network/shuffle/BlockTransferMessagesSuite.java

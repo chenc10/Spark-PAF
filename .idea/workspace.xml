@@ -1,0 +1,1870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spark-assembly_2.10:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be57be91-c457-4c63-af1e-95cb8897ef02" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bagel/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bagel/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bagel/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bagel/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bagel/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bagel/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker-integration-tests/target/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker-integration-tests/target/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker-integration-tests/target/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume-assembly/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume-assembly/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume-assembly/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume-sink/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume-sink/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume-sink/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/flume/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/kafka-assembly/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/kafka-assembly/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/kafka-assembly/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/kafka/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/kafka/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/kafka/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/kafka/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/kafka/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/kafka/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/mqtt-assembly/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/mqtt-assembly/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/mqtt-assembly/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/mqtt/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/mqtt/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/mqtt/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/mqtt/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/mqtt/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/mqtt/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/twitter/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/twitter/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/twitter/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/twitter/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/twitter/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/twitter/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/zeromq/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/zeromq/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/zeromq/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/zeromq/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/zeromq/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/zeromq/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphx/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphx/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphx/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphx/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphx/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/graphx/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/launcher/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/launcher/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/launcher/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/launcher/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/launcher/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/launcher/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mllib/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mllib/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mllib/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mllib/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mllib/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mllib/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/repl/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/repl/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/repl/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/repl/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/repl/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/repl/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/catalyst/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/catalyst/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/catalyst/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/catalyst/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/catalyst/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/catalyst/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/core/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/core/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/core/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/core/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/core/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/core/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/streaming/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/streaming/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/streaming/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/streaming/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/streaming/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/streaming/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tools/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unsafe/target/scala-2.10/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unsafe/target/scala-2.10/classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unsafe/target/scala-2.10/classes/META-INF/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unsafe/target/scala-2.10/test-classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unsafe/target/scala-2.10/test-classes/META-INF/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unsafe/target/scala-2.10/test-classes/META-INF/NOTICE" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/APPLICATION_COMPLETE" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/APPLICATION_COMPLETE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/SPARK_VERSION_1.2.0" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/SPARK_VERSION_1.2.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/APPLICATION_COMPLETE" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/APPLICATION_COMPLETE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/SPARK_VERSION_1.2.0" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/SPARK_VERSION_1.2.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/APPLICATION_COMPLETE" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/APPLICATION_COMPLETE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/SPARK_VERSION_1.2.0" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/SPARK_VERSION_1.2.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/APPLICATION_COMPLETE" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/APPLICATION_COMPLETE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/SPARK_VERSION_1.2.0" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/SPARK_VERSION_1.2.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/APPLICATION_COMPLETE" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/APPLICATION_COMPLETE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/SPARK_VERSION_1.2.0" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/SPARK_VERSION_1.2.0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/core/target/scala-2.10/test-classes/dec-in-i32.parquet" afterPath="$PROJECT_DIR$/sql/core/target/scala-2.10/test-classes/dec-in-i32.parquet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/core/target/scala-2.10/test-classes/dec-in-i64.parquet" afterPath="$PROJECT_DIR$/sql/core/target/scala-2.10/test-classes/dec-in-i64.parquet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/data/files/testUDF/part-00000" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/data/files/testUDF/part-00000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Pool.scala" afterPath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Pool.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala" afterPath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/ui/static/bootstrap.min.css" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/ui/static/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/EVENT_LOG_1" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/EVENT_LOG_1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/EVENT_LOG_1" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/EVENT_LOG_1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/EVENT_LOG_1" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/EVENT_LOG_1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/EVENT_LOG_1" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/EVENT_LOG_1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/EVENT_LOG_1" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/EVENT_LOG_1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1430917381534" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1430917381534" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalLR.scala" afterPath="$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalLR.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalPi.scala" afterPath="$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalPi.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/data/scripts/error_script" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/data/scripts/error_script" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/data/scripts/input20_script" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/data/scripts/input20_script" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/data/scripts/test_transform.py" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/data/scripts/test_transform.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby1.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby1.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby2.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby2.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby3.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby3.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby4.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby4.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby5.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby5.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby6.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/groupby6.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/input_testsequencefile.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/input_testsequencefile.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/input_testxpath.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/clientpositive/input_testxpath.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/negative/wrong_distinct1.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/negative/wrong_distinct1.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/negative/wrong_distinct2.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/negative/wrong_distinct2.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby1.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby1.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby2.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby2.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby3.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby3.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby4.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby4.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby5.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby5.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby6.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/groupby6.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/input_testsequencefile.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/input_testsequencefile.q" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/input_testxpath.q" afterPath="$PROJECT_DIR$/sql/hive/target/scala-2.10/test-classes/ql/src/test/queries/positive/input_testxpath.q" />
+    </list>
+    <ignored path="spark-parent_2.10.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/assembly/target/" />
+    <ignored path="$PROJECT_DIR$/network/common/target/" />
+    <ignored path="$PROJECT_DIR$/mllib/target/" />
+    <ignored path="$PROJECT_DIR$/launcher/target/" />
+    <ignored path="$PROJECT_DIR$/external/zeromq/target/" />
+    <ignored path="$PROJECT_DIR$/sql/catalyst/target/" />
+    <ignored path="$PROJECT_DIR$/graphx/target/" />
+    <ignored path="$PROJECT_DIR$/tags/target/" />
+    <ignored path="$PROJECT_DIR$/tools/target/" />
+    <ignored path="$PROJECT_DIR$/sql/core/target/" />
+    <ignored path="$PROJECT_DIR$/external/flume/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/external/mqtt-assembly/target/" />
+    <ignored path="$PROJECT_DIR$/sql/hive/target/" />
+    <ignored path="$PROJECT_DIR$/network/shuffle/target/" />
+    <ignored path="$PROJECT_DIR$/streaming/target/" />
+    <ignored path="$PROJECT_DIR$/unsafe/target/" />
+    <ignored path="$PROJECT_DIR$/repl/target/" />
+    <ignored path="$PROJECT_DIR$/external/kafka/target/" />
+    <ignored path="$PROJECT_DIR$/bagel/target/" />
+    <ignored path="$PROJECT_DIR$/docker-integration-tests/target/" />
+    <ignored path="$PROJECT_DIR$/external/flume-assembly/target/" />
+    <ignored path="$PROJECT_DIR$/external/kafka-assembly/target/" />
+    <ignored path="$PROJECT_DIR$/examples/target/" />
+    <ignored path="$PROJECT_DIR$/external/mqtt/target/" />
+    <ignored path="$PROJECT_DIR$/core/target/" />
+    <ignored path="$PROJECT_DIR$/external/flume-sink/target/" />
+    <ignored path="$PROJECT_DIR$/external/twitter/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="spark-parent_2.10" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TaskSchedulerImpl.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="275" column="26" lean-forward="false" selection-start-line="275" selection-start-column="26" selection-end-line="275" selection-end-column="26" />
+              <folding>
+                <element signature="e#838#864#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logging.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/Logging.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskSet.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSet.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/spark-2.1.0/examples/src/main/scala/org/apache/spark/examples/CCTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="85" column="3" lean-forward="true" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#863#888#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pool.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Pool.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="102" column="46" lean-forward="true" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalPi.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalPi.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="79" column="53" lean-forward="true" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalLR.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalLR.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SparkContext.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/SparkContext.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="1698" column="31" lean-forward="false" selection-start-line="1698" selection-start-column="31" selection-end-line="1698" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskSetManager.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#838#877#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stage.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Stage.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="90" column="34" lean-forward="false" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#838#877#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/ResultStage.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Stage.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskScheduler.scala" />
+        <option value="$PROJECT_DIR$/core/src/test/scala/org/apache/spark/scheduler/DAGSchedulerSuite.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSet.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/api/java/JavaSparkContext.scala" />
+        <option value="$PROJECT_DIR$/dist/python/pyspark/context.py" />
+        <option value="$PROJECT_DIR$/python/pyspark/context.py" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/SparkContext.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala" />
+        <option value="$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalPi.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Pool.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala" />
+        <option value="$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalLR.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Documents/apache-maven-3.3.9" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Spark Project External Flume Sink" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1080" />
+    <option name="y" value="-1120" />
+    <option name="width" value="1080" />
+    <option name="height" value="1920" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SparkContext.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskSetManager.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskSchedulerImpl.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stage.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchedulingAlgorithm.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchedulableBuilder.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAGScheduler.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LocalLR">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spark-assembly_2.10" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SparkPi" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.SparkPi" />
+      <option name="VM_PARAMETERS" value="-Dspark.master=local" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spark-examples_2.10" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LocalPi" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.LocalPi" />
+      <option name="VM_PARAMETERS" value="-Dspark.master=local[2]" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spark-examples_2.10" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LocalLR" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.LocalLR" />
+      <option name="VM_PARAMETERS" value="-Dspark.master=local[2]" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spark-examples_2.10" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.SparkPi" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LocalPi" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LocalLR" />
+    </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be57be91-c457-4c63-af1e-95cb8897ef02" name="Default" comment="" />
+      <created>1467980840101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1467980840101</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1080" y="-1120" width="1080" height="1920" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294956" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3224432" sideWeight="0.49614644" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32785088" sideWeight="0.50578034" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60855263" sideWeight="0.49421966" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30924857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36685553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294956" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3234649" sideWeight="0.49614644" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32785088" sideWeight="0.50578034" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.93311405" sideWeight="0.49421966" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294956" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25121164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36685553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/ResultStage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Stage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/external/flume-sink/src/main/scala/org/apache/spark/streaming/flume/sink/SparkAvroCallbackHandler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="76" column="23" lean-forward="false" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#838#864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1046" column="0" lean-forward="false" selection-start-line="1046" selection-start-column="0" selection-end-line="1046" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#838#877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/ResultStage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Stage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/external/flume-sink/src/main/scala/org/apache/spark/streaming/flume/sink/SparkAvroCallbackHandler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/ResultStage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/WorkerOffer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedClusterMessage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/scala/org/apache/spark/HeartbeatReceiverSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="222" column="24" lean-forward="false" selection-start-line="222" selection-start-column="24" selection-end-line="222" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Schedulable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/external/flume-sink/src/main/scala/org/apache/spark/streaming/flume/sink/SparkAvroCallbackHandler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskLocality.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mllib/src/main/scala/org/apache/spark/mllib/clustering/KMeans.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="106" column="59" lean-forward="false" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/ml/KMeansExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/local/LocalBackend.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mllib/src/main/scala/org/apache/spark/ml/clustering/KMeans.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="249" column="29" lean-forward="false" selection-start-line="249" selection-start-column="29" selection-end-line="249" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/scala/org/apache/spark/scheduler/TaskSchedulerImplSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="94" column="37" lean-forward="false" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/util/Timer.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="926" column="4" lean-forward="false" selection-start-line="926" selection-start-column="4" selection-end-line="926" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/scala/org/apache/spark/scheduler/DAGSchedulerSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="500" column="50" lean-forward="false" selection-start-line="500" selection-start-column="50" selection-end-line="500" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/executor/CoarseGrainedExecutorBackend.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskScheduler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pyspark/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="889" column="38" lean-forward="false" selection-start-line="889" selection-start-column="38" selection-end-line="889" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/python/pyspark/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="889" column="38" lean-forward="false" selection-start-line="889" selection-start-column="38" selection-end-line="889" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/api/java/JavaSparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="743" column="63" lean-forward="false" selection-start-line="743" selection-start-column="63" selection-end-line="743" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulerBackend.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1051" column="40" lean-forward="false" selection-start-line="1051" selection-start-column="40" selection-end-line="1051" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="191" column="16" lean-forward="false" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#846#882#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/ReplayListenerBus.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Stage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="90" column="34" lean-forward="false" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#838#877#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/SparkPi.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulingAlgorithm.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulingMode.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="114" column="8" lean-forward="false" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/Logging.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalPi.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="79" column="53" lean-forward="true" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/spark-2.1.0/examples/src/main/scala/org/apache/spark/examples/LocalPi.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/spark-2.1.0/examples/src/main/scala/org/apache/spark/examples/SparkPi.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/spark-2.1.0/examples/src/main/scala/org/apache/spark/examples/CCTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="85" column="3" lean-forward="true" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#863#888#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalLR.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="1698" column="31" lean-forward="false" selection-start-line="1698" selection-start-column="31" selection-end-line="1698" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="275" column="26" lean-forward="false" selection-start-line="275" selection-start-column="26" selection-end-line="275" selection-end-column="26" />
+          <folding>
+            <element signature="e#838#864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#838#877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Pool.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="102" column="46" lean-forward="true" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spark-assembly_2.10:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>com.mysql.jdbc_5.1.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spark-core_2.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
