@@ -165,9 +165,9 @@ private[spark] class PAFSchedulableBuilder(val rootPool: Pool)
   }
 
   override def addTaskSetManager(manager: Schedulable, properties: Properties) {
-    val poolName = properties.getProperty("application.ID")
-    val poolWeight = properties.getProperty("application.Weight").toInt
-    val curveString = properties.getProperty("application.CurveString")
+    val poolName = properties.getProperty("application.ID", "0")
+    val poolWeight = properties.getProperty("application.Weight", "1").toInt
+    val curveString = properties.getProperty("application.CurveString", "0-1")
     val clusterSize = properties.getProperty("cluster.size", "32")
     var parentPool = rootPool.getSchedulableByName(poolName).asInstanceOf[Pool]
     if (parentPool == null) {

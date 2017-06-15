@@ -43,35 +43,45 @@ object LocalLR {
   }
 
   def job0(spark: SparkContext): rdd.RDD[(Int, Int)] = {
+    spark.setLocalProperty("job.priority", "1")
+    spark.setLocalProperty("job.threadId", "1")
+    spark.setLocalProperty("job.isolationType", "0")
     spark.setLocalProperty("application.ID", "1")
     spark.setLocalProperty("application.Weight", "1")
     spark.setLocalProperty("application.CurveString", "0-0.2-0.5-0.8-1")
-    spark.setLocalProperty("spark.scheduler.pool", "0")
-    waiting(1500)
     val value = spark.parallelize(0 until 4, 4).map(i => (i, i)).map(i => waitMap(2000, i))
+//    val value = spark.parallelize(0 until 4, 4).map(i => (i, i))
+//      .map(i => waitMap(500 + 500*i._1, i))
     value
   }
 
   def job1(spark: SparkContext): rdd.RDD[(Int, Int)] = {
-    spark.setLocalProperty("application.ID", "2")
-    spark.setLocalProperty("application.Weight", "2")
-    spark.setLocalProperty("application.CurveString", "0-0.1-0.2-0.3-1")
-    spark.setLocalProperty("spark.scheduler.pool", "1")
+    spark.setLocalProperty("job.priority", "1")
+    spark.setLocalProperty("job.threadId", "1")
+    spark.setLocalProperty("job.isolationType", "0")
+    spark.setLocalProperty("application.ID", "1")
+    spark.setLocalProperty("application.Weight", "1")
+    spark.setLocalProperty("application.CurveString", "0-0.2-0.5-0.8-1")
     waiting(1500)
     val value = spark.parallelize(0 until 4, 4).map(i => (i, i)).map(i => waitMap(2000, i))
     value
   }
 
   def job2(spark: SparkContext): rdd.RDD[(Int, Int)] = {
-    val value = spark.parallelize(0 until 2, 2).map(i => (i, i))
-      .map(i => waitMap(500 + 500*i._1, i))
+    spark.setLocalProperty("job.priority", "1")
+    spark.setLocalProperty("job.threadId", "2")
+    spark.setLocalProperty("job.isolationType", "0")
+    spark.setLocalProperty("application.ID", "2")
+    spark.setLocalProperty("application.Weight", "1")
+    spark.setLocalProperty("application.CurveString", "0-1-1-1-1")
+    waiting(1500)
+    val value = spark.parallelize(0 until 4, 4).map(i => (i, i)).map(i => waitMap(2000, i))
     value
   }
 
+
   def submit(sc: SparkContext, submittingTime: Int,
              i: Int): Unit = {
-    waiting(submittingTime)
-    sc.setLocalProperty("spark.phaseInterval", "50")
     if (i == 0) {
       job0(sc).collect()
     }
@@ -85,16 +95,16 @@ object LocalLR {
 
 
   def main(args: Array[String]) {
-    val conf = new SparkConf().setAppName("Spark Pi").set("spark.scheduler.mode", "FAIR")
+    val conf = new SparkConf().setAppName("Spark Pi").set("spark.scheduler.mode", "PAF")
       .set("spark.executor.cores", "1")
     val spark = new SparkContext(conf)
     // in real test, these properties in each thread shall be set in priori
     spark.setLocalProperty("cluster.size", "4")
-    // It remains a problem how to set the cluster size. Currently it's still 32.
-
-
-    Array((0, 0), (5, 1), (2, 2)).par.foreach(i =>
-      submit(spark, i._1, i._2))
+//    // It remains a problem how to set the cluster size. Currently it's still 32.
+//
+      submit(spark, 0, 0)
+//    Array((0, 0), (5, 1), (2, 2)).par.foreach(i =>
+//      submit(spark, i._1, i._2))
 
     spark.stop()
   }
