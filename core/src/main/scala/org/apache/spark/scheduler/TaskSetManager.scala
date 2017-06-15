@@ -59,6 +59,9 @@ private[spark] class TaskSetManager(
   val conf = sched.sc.conf
 
   // add by cc
+  //
+  var targetAlloc: Double = 0.0
+  //
   val isFinal = taskSet.isFinal
   val jobId = taskSet.jobId
   val priority = taskSet.priority

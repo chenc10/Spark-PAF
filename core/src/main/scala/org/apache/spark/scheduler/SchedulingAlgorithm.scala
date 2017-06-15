@@ -78,3 +78,18 @@ private[spark] class FairSchedulingAlgorithm extends SchedulingAlgorithm {
   }
 }
 
+// add by cc
+private[spark] class PAFSchedulingAlgorithm extends SchedulingAlgorithm {
+  override def comparator(s1: Schedulable, s2: Schedulable): Boolean = {
+    val priority1 = s1.runningTasks / s1.targetAlloc
+    val priority2 = s2.runningTasks / s2.targetAlloc
+    var res = math.signum(priority1 - priority2)
+    if (res == 0) {
+      val stageId1 = s1.stageId
+      val stageId2 = s2.stageId
+      res = math.signum(stageId1 - stageId2)
+    }
+    res < 0
+  }
+}
+

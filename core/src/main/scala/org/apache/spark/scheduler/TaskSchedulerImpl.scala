@@ -150,6 +150,8 @@ private[spark] class TaskSchedulerImpl(
           new FIFOSchedulableBuilder(rootPool)
         case SchedulingMode.FAIR =>
           new FairSchedulableBuilder(rootPool, conf)
+        case SchedulingMode.PAF =>
+          new PAFSchedulableBuilder(rootPool)
       }
     }
     schedulableBuilder.buildPools()

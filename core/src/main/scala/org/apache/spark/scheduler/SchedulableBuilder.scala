@@ -21,7 +21,6 @@ import java.io.{FileInputStream, InputStream}
 import java.util.{NoSuchElementException, Properties}
 
 import scala.xml.XML
-
 import org.apache.spark.{Logging, SparkConf}
 import org.apache.spark.util.Utils
 
@@ -150,5 +149,32 @@ private[spark] class FairSchedulableBuilder(val rootPool: Pool, conf: SparkConf)
     }
     parentPool.addSchedulable(manager)
     logInfo("Added task set " + manager.name + " tasks to pool " + poolName)
+  }
+}
+
+// add by cc
+private[spark] class PAFSchedulableBuilder(val rootPool: Pool)
+  extends SchedulableBuilder with Logging {
+  // TO DO: create initial PAF pool
+  val DEFAULT_SCHEDULING_MODE = SchedulingMode.FIFO
+
+  override def buildPools() {
+    // nothing
+  }
+
+  override def addTaskSetManager(manager: Schedulable, properties: Properties) {
+    val poolName = properties.getProperty("application.ID")
+    val poolWeight = properties.getProperty("application.Weight").toInt
+    val curveString = properties.getProperty("application.CurveString")
+    val clusterSize = properties.getProperty("cluster.size", "32")
+    var parentPool = rootPool.getSchedulableByName(poolName).asInstanceOf[Pool]
+    if (parentPool == null) {
+      parentPool = new Pool(poolName, DEFAULT_SCHEDULING_MODE, 0, poolWeight)
+      logInfo("##### ##### PoolName: %s".format(poolName))
+      parentPool.parent = rootPool
+      parentPool.setCurve(curveString, clusterSize)
+      rootPool.addSchedulable(parentPool)
+    }
+    parentPool.addSchedulable(manager)
   }
 }

@@ -49,11 +49,226 @@ private[spark] class Pool(
   var name = poolName
   var parent: Pool = null
 
+  // add by cc
+  var targetAlloc = 0.0;
+  var allResources = 32.0
+  var alpha = 0.5
+  var curve: scala.collection.mutable.Buffer[Double] = null
+  var fairAlloc = 0.0;
+  var minAlloc = 0.0;
+  var nDemand = 0.0;
+  var lSlope = 0.0;
+  var rSlope = 0.0;
+  var slopeArray: Array[Double] = null
+  var lSlopeArray: Array[Double] = null
+  var rSlopeArray: Array[Double] = null
+  //
+  def setCurve(curveString: String, clusterSize: String): Unit = {
+    logInfo("##### %d".format(curveString.length))
+    val stringBuffer = curveString.split("-").toBuffer
+    logInfo("1##### %d".format(stringBuffer.length))
+    parent.allResources = clusterSize.toDouble
+    curve = stringBuffer.map{i => i.toDouble}
+    nDemand = (curve.length-1) / weight;
+    logInfo("2##### %d".format(stringBuffer.length))
+    //
+    slopeArray = new Array[Double](curve.length);
+    lSlopeArray = new Array[Double](curve.length);
+    rSlopeArray = new Array[Double](curve.length);
+    logInfo("3##### %d".format(stringBuffer.length))
+    //
+    slopeArray(0) = 10.0;
+    logInfo("4##### %d".format(stringBuffer.length))
+    slopeArray(curve.length-1) = 0;
+    for (i <- 1 until curve.length - 1) {
+      slopeArray(i) = curve(i +1) - curve(i -1);
+    }
+    logInfo("2")
+    //
+    lSlopeArray(0) = 10.0;
+    for (i <- 1 until curve.length) {
+      lSlopeArray(i) = curve(i) - curve( i -1);
+    }
+    //
+    logInfo("3")
+    rSlopeArray(curve.length-1) = 0;
+    for (i <- 0 until curve.length-1) {
+      rSlopeArray(i) = curve(i +1) - curve(i);
+    }
+  }
+  //
+  def update_slope() {
+    lSlope = lSlopeArray(targetAlloc.toInt);
+    rSlope = rSlopeArray(targetAlloc.toInt);
+  }
+  //
+  def getFairAlloc(): Unit = {
+    var jobList = schedulableQueue.asScala.toBuffer[Schedulable].map{i => i.asInstanceOf[Pool]}
+    // need to check whether the adjustment of jobList could be reflected to Queue
+    var totalResources = allResources
+    var totalWeight = schedulableQueue.asScala.map{i => i.weight}.sum
+    jobList = jobList.sortBy(_.nDemand);
+    for ( i <- 0 until jobList.length if totalResources > 0) {
+      if ( i > 0 ) totalWeight -= jobList(i - 1).weight
+      if (jobList(i).nDemand * totalWeight < totalResources) {
+        totalResources -= jobList(i).nDemand * totalWeight;
+        for (j <- i until jobList.length) {
+          jobList(j).fairAlloc += jobList(i).nDemand * jobList(j).weight;
+          jobList(j).nDemand -= jobList(i).nDemand;
+        }
+      } else {
+        for (j <- i until jobList.length) {
+          jobList(j).fairAlloc += totalResources/totalWeight * jobList(j).weight;
+          jobList(j).nDemand -= totalResources/totalWeight;
+        }
+        totalResources = 0;
+      }
+    }
+  }
+  //
+  def get_min_alloc(): Unit = {
+    // this function can be called only after getFairAlloc
+    logInfo("#### #### total: %d".format(allResources.toInt))
+    var tmp_i = 1
+    while (tmp_i <= fairAlloc.toInt && curve(fairAlloc.toInt - tmp_i) >=
+      curve(fairAlloc.toInt) * alpha) {
+      tmp_i += 1
+    }
+    minAlloc = fairAlloc - tmp_i + 1;
+    // also initialize alloc
+    targetAlloc = fairAlloc;
+    lSlope = lSlopeArray(targetAlloc.toInt);
+    rSlope = rSlopeArray(targetAlloc.toInt);
+  }
+  //
+  def getTargetShare(): Unit = {
+    getFairAlloc()
+    var jobList = schedulableQueue.asScala.toBuffer[Schedulable].map{i => i.asInstanceOf[Pool]}
+    if (jobList.size < 2) {
+      this.targetAlloc = allResources
+      return
+    }
+    for (p <- jobList) {
+      p.get_min_alloc()
+    }
+    var setG = new ArrayBuffer[Pool]();
+    var setH = new ArrayBuffer[Pool]();
+    var setQ = new ArrayBuffer[Pool]();
+    //
+    logInfo("##### hhh: %d".format(jobList.size))
+    setG += jobList.minBy(_.lSlope);
+    jobList -= jobList.minBy(_.lSlope);
+    setH += jobList.maxBy(_.rSlope);
+    jobList -= jobList.maxBy(_.rSlope);
+    //
+    var tmpGiverJob = setG.minBy(_.lSlope);
+    var tmpGainJob = setH.maxBy(_.rSlope);
+    var lMax = 0.0;
+    var rMin = 0.0;
+    var s = true;
+    var stopCase_G = 0;
+    var stopCase_H = 0;
+    var shallDoAdjustment = false;
+    //
+    while (jobList.length != 0) {
+      // terminate condition: jobList.length == 0 and no space for shifting
+      // with one iteration, one giver job offers resources to one receiver job
+      // all actions under a fixed jobList
+      lMax = jobList.minBy(_.lSlope).lSlope; // set adjustment space
+      rMin = jobList.maxBy(_.rSlope).rSlope;
+      s = true;
+      stopCase_G = 0;
+      stopCase_H = 0;
+      while (s) {
+        // all actions under a fixed jobList, a fixed tmpGiver/GainJob.
+        shallDoAdjustment = true;
+        tmpGiverJob = setG.minBy(_.lSlope);
+        if (tmpGiverJob.lSlope > lMax) {
+          // upper bound reached
+          s = false;
+          stopCase_G = 1;
+          shallDoAdjustment = false;
+        }
+        if (tmpGiverJob.targetAlloc == tmpGiverJob.minAlloc) {
+          // if giverJob meets its fairness constrain
+          setG -= tmpGiverJob;
+          setQ += tmpGiverJob;
+          shallDoAdjustment = false;
+          if (setG.length == 0) {
+            s = false;
+            stopCase_G = 1;
+          }
+        }
+        tmpGainJob = setH.maxBy(_.rSlope);
+        if (tmpGainJob.rSlope < rMin) {
+          // lower bound reached
+          s = false;
+          stopCase_H = 1;
+          shallDoAdjustment = false;
+        }
+        // conduct adjustment
+        if (shallDoAdjustment) {
+          tmpGiverJob.targetAlloc -= 1;
+          tmpGainJob.targetAlloc += 1;
+          tmpGiverJob.update_slope();
+          tmpGainJob.update_slope();
+        }
+      }
+      // modify jobList according to the return value of while
+      if (stopCase_G == 1) {
+        // add new job to setG
+        setG += jobList.minBy(_.lSlope);
+        jobList -= jobList.minBy(_.lSlope);
+      }
+      if (stopCase_H == 1) {
+        // add new job to setH
+        // skip test whether jobList.length > 0
+        setH += jobList.maxBy(_.rSlope);
+        jobList -= jobList.maxBy(_.rSlope);
+      }
+    }
+    while (s) {
+      // terminate condition: no space for shifting
+      // with one iteration, one giver job offers resources to one receiver job
+      // all actions under a fixed jobList.
+      // set adjustment space
+      // when entering the loop, all the parameters must be usable
+      tmpGiverJob = setG.minBy(_.lSlope);
+      tmpGainJob = setH.maxBy(_.rSlope);
+      shallDoAdjustment = true;
+      if (tmpGiverJob.lSlope >= tmpGainJob.rSlope) {
+        s = false;
+        shallDoAdjustment = false;
+      }
+      if (tmpGiverJob.targetAlloc == tmpGiverJob.minAlloc) {
+        // if giverJob meets its fairness constrain
+        // move tmpGiverJob to the finished (determined) set
+        setG -= tmpGiverJob;
+        setQ += tmpGiverJob;
+        shallDoAdjustment = false;
+        if (setG.length == 0) {
+          // no jobs can give out resources
+          s = false;
+        }
+      }
+      if (shallDoAdjustment) {
+        // conduct adjustment
+        tmpGiverJob.targetAlloc -= 1;
+        tmpGainJob.targetAlloc += 1;
+        tmpGiverJob.update_slope();
+        tmpGainJob.update_slope();
+      }
+    }
+  }
+
+
   var taskSetSchedulingAlgorithm: SchedulingAlgorithm = {
     schedulingMode match {
       case SchedulingMode.FAIR =>
         new FairSchedulingAlgorithm()
       case SchedulingMode.FIFO =>
+        new FIFOSchedulingAlgorithm()
+      case SchedulingMode.PAF =>
         new FIFOSchedulingAlgorithm()
     }
   }
@@ -63,11 +278,24 @@ private[spark] class Pool(
     schedulableQueue.add(schedulable)
     schedulableNameToSchedulable.put(schedulable.name, schedulable)
     schedulable.parent = this
+
+    // add by cc
+    // calculate the target share when a new application is submitted
+    if (schedulingMode == SchedulingMode.PAF) {
+      getTargetShare()
+    }
   }
 
   override def removeSchedulable(schedulable: Schedulable) {
     schedulableQueue.remove(schedulable)
     schedulableNameToSchedulable.remove(schedulable.name)
+
+    // add by cc
+    // if current application finishes, then re_calculate the target share
+    if (parent != null && parent.schedulingMode == SchedulingMode.PAF) {
+      parent.removeSchedulable(this)
+      parent.getTargetShare()
+    }
   }
 
   override def getSchedulableByName(schedulableName: String): Schedulable = {
