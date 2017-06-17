@@ -32,7 +32,7 @@ private[spark] trait Schedulable {
   // child queues
   def schedulableQueue: ConcurrentLinkedQueue[Schedulable]
   def schedulingMode: SchedulingMode
-  def weight: Int
+  def weight: Double
   def minShare: Int
   def runningTasks: Int
   def priority: Int

@@ -33,13 +33,13 @@ private[spark] class Pool(
     val poolName: String,
     val schedulingMode: SchedulingMode,
     initMinShare: Int,
-    initWeight: Int)
+    initWeight: Double)
   extends Schedulable
   with Logging {
 
   val schedulableQueue = new ConcurrentLinkedQueue[Schedulable]
   val schedulableNameToSchedulable = new ConcurrentHashMap[String, Schedulable]
-  var weight = initWeight
+  var weight : Double = initWeight
   var minShare = initMinShare
   var runningTasks = 0
   var priority = 0
@@ -64,37 +64,43 @@ private[spark] class Pool(
   var rSlopeArray: Array[Double] = null
   //
   def setCurve(curveString: String, clusterSize: String): Unit = {
-    logInfo("##### %d".format(curveString.length))
+//    logInfo("##### %d".format(curveString.length))
     val stringBuffer = curveString.split("-").toBuffer
-    logInfo("1##### %d".format(stringBuffer.length))
+//    logInfo("1##### %d".format(stringBuffer.length))
     parent.allResources = clusterSize.toDouble
     curve = stringBuffer.map{i => i.toDouble}
     nDemand = (curve.length-1) / weight;
-    logInfo("2##### %d".format(stringBuffer.length))
+    logInfo("##### poolName: " + poolName + "; curvelength: " + curve.length
+      + "; weight: " + weight)
     //
     slopeArray = new Array[Double](curve.length);
     lSlopeArray = new Array[Double](curve.length);
     rSlopeArray = new Array[Double](curve.length);
-    logInfo("3##### %d".format(stringBuffer.length))
+//    logInfo("3##### %d".format(stringBuffer.length))
     //
     slopeArray(0) = 10.0;
-    logInfo("4##### %d".format(stringBuffer.length))
+//    logInfo("4##### %d".format(stringBuffer.length))
     slopeArray(curve.length-1) = 0;
     for (i <- 1 until curve.length - 1) {
       slopeArray(i) = curve(i +1) - curve(i -1);
     }
-    logInfo("2")
+//    logInfo("2")
     //
     lSlopeArray(0) = 10.0;
     for (i <- 1 until curve.length) {
       lSlopeArray(i) = curve(i) - curve( i -1);
     }
     //
-    logInfo("3")
+//    logInfo("3")
     rSlopeArray(curve.length-1) = 0;
     for (i <- 0 until curve.length-1) {
       rSlopeArray(i) = curve(i +1) - curve(i);
     }
+  }
+  //
+  def init() {
+    nDemand = (curve.length-1) / weight
+    fairAlloc = 0.0
   }
   //
   def update_slope() {
@@ -103,10 +109,27 @@ private[spark] class Pool(
   }
   //
   def getFairAlloc(): Unit = {
-    var jobList = schedulableQueue.asScala.toBuffer[Schedulable].map{i => i.asInstanceOf[Pool]}
+    val jobList_init = schedulableQueue.asScala.toBuffer[Schedulable].map{i => i.asInstanceOf[Pool]}
+    var jobList = new ArrayBuffer[Pool]()
+    val jobList_copy = new ArrayBuffer[Pool]()
+    for (p <- jobList_init) {
+      logInfo("##### haha the nDemand of job" + p.poolName + "-" + p.nDemand)
+    }
+    for ( i <- 0 until jobList_init.size) {
+      if (jobList_init(i).poolName != "0"){
+        jobList.append(jobList_init(i))
+        jobList_copy.append(jobList_init(i))
+      }
+    }
     // need to check whether the adjustment of jobList could be reflected to Queue
     var totalResources = allResources
-    var totalWeight = schedulableQueue.asScala.map{i => i.weight}.sum
+    var totalWeight = jobList.map{i => i.weight}.sum
+
+    logInfo("##### the total slots: " + totalResources + "; totalweight: " + totalWeight)
+    for (p <- jobList_copy) {
+      logInfo("##### the nDemand of job" + p.poolName + "-" + p.nDemand)
+    }
+
     jobList = jobList.sortBy(_.nDemand);
     for ( i <- 0 until jobList.length if totalResources > 0) {
       if ( i > 0 ) totalWeight -= jobList(i - 1).weight
@@ -124,11 +147,13 @@ private[spark] class Pool(
         totalResources = 0;
       }
     }
+    for (p <- jobList_copy) {
+      logInfo("##### the fair number of slot of job-" + p.poolName + "-" + p.fairAlloc)
+    }
   }
   //
   def get_min_alloc(): Unit = {
     // this function can be called only after getFairAlloc
-    logInfo("#### #### total: %d".format(allResources.toInt))
     var tmp_i = 1
     while (tmp_i <= fairAlloc.toInt && curve(fairAlloc.toInt - tmp_i) >=
       curve(fairAlloc.toInt) * alpha) {
@@ -137,13 +162,23 @@ private[spark] class Pool(
     minAlloc = fairAlloc - tmp_i + 1;
     // also initialize alloc
     targetAlloc = fairAlloc;
+    logInfo("targetAlloc: " + targetAlloc + "; size of lSlopeArray: " + lSlopeArray.length)
     lSlope = lSlopeArray(targetAlloc.toInt);
     rSlope = rSlopeArray(targetAlloc.toInt);
   }
   //
   def getTargetShare(): Unit = {
+    val jobList = new ArrayBuffer[Pool]()
+    val jobList_copy = new ArrayBuffer[Pool]()
+    val jobList_init = schedulableQueue.asScala.toBuffer[Schedulable].map{i => i.asInstanceOf[Pool]}
+    for ( i <- 0 until jobList_init.size) {
+      jobList_init(i).init()
+      if (jobList_init(i).poolName != "0"){
+        jobList.append(jobList_init(i))
+        jobList_copy.append(jobList_init(i))
+      }
+    }
     getFairAlloc()
-    var jobList = schedulableQueue.asScala.toBuffer[Schedulable].map{i => i.asInstanceOf[Pool]}
     if (jobList.size < 2) {
       this.targetAlloc = allResources
       return
@@ -155,7 +190,7 @@ private[spark] class Pool(
     var setH = new ArrayBuffer[Pool]();
     var setQ = new ArrayBuffer[Pool]();
     //
-    logInfo("##### hhh: %d".format(jobList.size))
+//    logInfo("##### hhh: %d".format(jobList.size))
     setG += jobList.minBy(_.lSlope);
     jobList -= jobList.minBy(_.lSlope);
     setH += jobList.maxBy(_.rSlope);
@@ -236,28 +271,37 @@ private[spark] class Pool(
       tmpGiverJob = setG.minBy(_.lSlope);
       tmpGainJob = setH.maxBy(_.rSlope);
       shallDoAdjustment = true;
+      logInfo("Enter iteration, tmpGiverJob: " + tmpGiverJob.poolName
+        + " tmpGainJob: " + tmpGainJob.poolName)
       if (tmpGiverJob.lSlope >= tmpGainJob.rSlope) {
+        logInfo("1")
         s = false;
         shallDoAdjustment = false;
       }
       if (tmpGiverJob.targetAlloc == tmpGiverJob.minAlloc) {
+        logInfo("2")
         // if giverJob meets its fairness constrain
         // move tmpGiverJob to the finished (determined) set
         setG -= tmpGiverJob;
         setQ += tmpGiverJob;
         shallDoAdjustment = false;
         if (setG.length == 0) {
+          logInfo("3")
           // no jobs can give out resources
           s = false;
         }
       }
       if (shallDoAdjustment) {
+        logInfo("4")
         // conduct adjustment
         tmpGiverJob.targetAlloc -= 1;
         tmpGainJob.targetAlloc += 1;
         tmpGiverJob.update_slope();
         tmpGainJob.update_slope();
       }
+    }
+    for (p <- jobList_copy) {
+      logInfo("##### the target number of slot of job-" + p.poolName + "-" + p.targetAlloc)
     }
   }
 
@@ -268,7 +312,7 @@ private[spark] class Pool(
       case SchedulingMode.FIFO =>
         new FIFOSchedulingAlgorithm()
       case SchedulingMode.PAF =>
-        new FIFOSchedulingAlgorithm()
+        new PAFSchedulingAlgorithm()
     }
   }
 
@@ -329,15 +373,14 @@ private[spark] class Pool(
     for (schedulable <- sortedSchedulableQueue) {
       sortedTaskSetQueue ++= schedulable.getSortedTaskSetQueue
     }
-    if (schedulingMode == SchedulingMode.FIFO) {
+    if (schedulingMode == SchedulingMode.PAF) {
       for (taskSetManager <- sortedTaskSetQueue) {
         logInfo("##### ##### Print sortedResult in Queue: JobId-%d StageId-%d | priority-%d"
           .format(taskSetManager.jobId, taskSetManager.stageId,
             taskSetManager.priority))
       }
-      logInfo("##### ##### End printing in FIFO")
+      logInfo("##### ##### End printing in PAF")
     }
-    logInfo("--------------------" + schedulingMode.toString)
     sortedTaskSetQueue
   }
 

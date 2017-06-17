@@ -43,15 +43,8 @@ object LocalLR {
   }
 
   def job0(spark: SparkContext): rdd.RDD[(Int, Int)] = {
-    spark.setLocalProperty("job.priority", "1")
-    spark.setLocalProperty("job.threadId", "1")
-    spark.setLocalProperty("job.isolationType", "0")
-    spark.setLocalProperty("application.ID", "1")
-    spark.setLocalProperty("application.Weight", "1")
-    spark.setLocalProperty("application.CurveString", "0-0.2-0.5-0.8-1")
-    val value = spark.parallelize(0 until 4, 4).map(i => (i, i)).map(i => waitMap(2000, i))
-//    val value = spark.parallelize(0 until 4, 4).map(i => (i, i))
-//      .map(i => waitMap(500 + 500*i._1, i))
+    val value = spark.parallelize(0 until 4, 4).map(i => (i, i))
+      .map(i => waitMap(5100 + 500*i._1, i))
     value
   }
 
@@ -63,7 +56,7 @@ object LocalLR {
     spark.setLocalProperty("application.Weight", "1")
     spark.setLocalProperty("application.CurveString", "0-0.2-0.5-0.8-1")
     waiting(1500)
-    val value = spark.parallelize(0 until 4, 4).map(i => (i, i)).map(i => waitMap(2000, i))
+    val value = spark.parallelize(0 until 4, 4).map(i => (i, i)).map(i => waitMap(10000, i))
     value
   }
 
@@ -75,7 +68,7 @@ object LocalLR {
     spark.setLocalProperty("application.Weight", "1")
     spark.setLocalProperty("application.CurveString", "0-1-1-1-1")
     waiting(1500)
-    val value = spark.parallelize(0 until 4, 4).map(i => (i, i)).map(i => waitMap(2000, i))
+    val value = spark.parallelize(0 until 4, 4).map(i => (i, i)).map(i => waitMap(10000, i))
     value
   }
 
@@ -102,9 +95,9 @@ object LocalLR {
     spark.setLocalProperty("cluster.size", "4")
 //    // It remains a problem how to set the cluster size. Currently it's still 32.
 //
-      submit(spark, 0, 0)
-//    Array((0, 0), (5, 1), (2, 2)).par.foreach(i =>
-//      submit(spark, i._1, i._2))
+//      submit(spark, 0, 0)
+    Array((0, 0), (5, 1), (2, 2)).par.foreach(i =>
+      submit(spark, i._1, i._2))
 
     spark.stop()
   }

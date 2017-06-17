@@ -116,7 +116,7 @@ private[spark] class TaskSetManager(
   val taskAttempts = Array.fill[List[TaskInfo]](numTasks)(Nil)
   var tasksSuccessful = 0
 
-  var weight = 1
+  var weight : Double = 1.0
   var minShare = 0
 //  var priority = taskSet.priority
   var stageId = taskSet.stageId
@@ -460,12 +460,18 @@ private[spark] class TaskSetManager(
 
       var allowedLocality = maxLocality
 
+      // change this part: don't consider locality for the first stage
+
       if (maxLocality != TaskLocality.NO_PREF) {
         allowedLocality = getAllowedLocalityLevel(curTime)
         if (allowedLocality > maxLocality) {
           // We're not allowed to search for farther-away tasks
           allowedLocality = maxLocality
         }
+      }
+
+      if (stageId == 0 && isolationType == 0){
+        allowedLocality = TaskLocality.ANY
       }
 
       dequeueTask(execId, host, allowedLocality) match {
@@ -519,13 +525,13 @@ private[spark] class TaskSetManager(
           // add by cc, currently speculation tasks are not considered.
           if (currentPendingTasksNum == numTasks) {
             firstTaskStartTime = System.currentTimeMillis
-            logInfo("############# firstTaskStartTime: %d".format(firstTaskStartTime))
+//            logInfo("############# firstTaskStartTime: %d".format(firstTaskStartTime))
           }
 
           currentPendingTasksNum -= 1
           if (currentPendingTasksNum == 0) {
             lastTaskStartTime = System.currentTimeMillis
-            logInfo("############# lastTaskStartTime: %d".format(lastTaskStartTime))
+//            logInfo("############# lastTaskStartTime: %d".format(lastTaskStartTime))
             if (firstTaskFinishTime != 0){
              genDeadline()
             }
@@ -661,8 +667,8 @@ private[spark] class TaskSetManager(
       if (isolationType != 2){
         slotReserveDeadline = lastTaskFinishTime + estimatedPhaseInterval
         sched.backend.reviveOffers()
-        logInfo("##### ##### ##### set slotRD from estimatedInterval: %d"
-          .format(slotReserveDeadline))
+//        logInfo("##### ##### ##### set slotRD from estimatedInterval: %d"
+//          .format(slotReserveDeadline))
      }
     } else {
       if (isolationType == 0) {
@@ -673,19 +679,19 @@ private[spark] class TaskSetManager(
         } else {
           val firstTaskRunTime = firstTaskFinishTime - firstTaskStartTime
           var v1 = Math.pow(1 - Math.pow(Probability, 1.toFloat / numTasks), -1 / alpha)
-          logInfo("AAAAA AAAAA AAAAA: fTStartT: %d, lTStartT: %d, fTFinishT: %d, fTFinishT: %d"
-            .format(firstTaskStartTime%1000000, lastTaskStartTime%1000000,
-              firstTaskFinishTime%1000000, lastTaskFinishTime%1000000))
-          logInfo("AAAAA AAAAA AAAAA v1: %.2f".format(v1.toFloat))
-	  if (v1 > 10000){
-		v1 = 1000
-	  }
+//          logInfo("AAAAA AAAAA AAAAA: fTStartT: %d, lTStartT: %d, fTFinishT: %d, fTFinishT: %d"
+//            .format(firstTaskStartTime%1000000, lastTaskStartTime%1000000,
+//              firstTaskFinishTime%1000000, lastTaskFinishTime%1000000))
+//          logInfo("AAAAA AAAAA AAAAA v1: %.2f".format(v1.toFloat))
+	        if (v1 > 10000){
+		      v1 = 1000
+	        }
           slotReserveDeadline = lastTaskStartTime + (firstTaskRunTime * v1).toLong
         }
       }
     }
 //    slotReserveDeadline = Long.MaxValue
-    logInfo("############ get slotReserveDeadline: %d".format(slotReserveDeadline))
+//    logInfo("############ get slotReserveDeadline: %d".format(slotReserveDeadline))
   }
 
   /**
@@ -716,7 +722,7 @@ private[spark] class TaskSetManager(
       // add by cc
       if (tasksSuccessful == 1){
         firstTaskFinishTime = currentTime
-        logInfo("############# firstTaskFinishTime: %d".format(System.currentTimeMillis))
+//        logInfo("############# firstTaskFinishTime: %d".format(System.currentTimeMillis))
         if (lastTaskStartTime != 0) {
           genDeadline()
         }
@@ -730,15 +736,11 @@ private[spark] class TaskSetManager(
         isZombie = true
         // add by cc
         lastTaskFinishTime = currentTime
-        logInfo("&&&&& Stage %d finish! slotRD: %d, lastTaskFT: %d"
-          .format(taskSet.stageId, slotReserveDeadline%1000000, lastTaskFinishTime%1000000))
         for (keyValue <- tidToFinishTime){
-          logInfo("&&&& taskid: %d, taskFinishTime: %d".format(keyValue._1, keyValue._2 % 1000000))
           if (keyValue._2 < slotReserveDeadline){
             wasteInThisTaskSet += min(slotReserveDeadline, lastTaskFinishTime) - keyValue._2
           }
         }
-        logInfo("&&&&& waste in this taskSet: %d".format(wasteInThisTaskSet))
         genDeadline()
       }
     } else {

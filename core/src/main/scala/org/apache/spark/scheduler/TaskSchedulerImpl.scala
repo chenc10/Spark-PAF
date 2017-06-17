@@ -299,11 +299,11 @@ private[spark] class TaskSchedulerImpl(
 
       if (!shouldAllocate){
         val currentTime = System.currentTimeMillis
-        logInfo("##### - ##### currentTime: %d, slotRD: %d"
-          .format(currentTime, executorIdToTaskSetManager(execId).slotReserveDeadline))
+//        logInfo("##### - ##### currentTime: %d, slotRD: %d"
+//          .format(currentTime, executorIdToTaskSetManager(execId).slotReserveDeadline))
         if (currentTime > executorIdToTaskSetManager(execId).slotReserveDeadline){
-         logInfo("##### - ##### slot sticking time out! allow preemption: current: %d, slotRD: %d"
-            .format(currentTime, executorIdToTaskSetManager(execId).slotReserveDeadline))
+//         logInfo("##### - ##### slot sticking time out! allow preemption: current: %d, slotRD: %d"
+//            .format(currentTime, executorIdToTaskSetManager(execId).slotReserveDeadline))
           shouldAllocate = true
         }
       }
@@ -366,7 +366,7 @@ private[spark] class TaskSchedulerImpl(
   def resourceOffers(offers: Seq[WorkerOffer]): Seq[Seq[TaskDescription]] = synchronized {
     // Mark each slave as alive and remember its hostname
     // Also track if new executor is added
-    logInfo("##### ##### ##### ##### enter resourceOffers, offer size: %d".format(offers.size))
+//    logInfo("##### ##### ##### ##### enter resourceOffers, offer size: %d".format(offers.size))
     var newExecAvail = false
     for (o <- offers) {
       executorIdToHost(o.executorId) = o.host
@@ -417,7 +417,7 @@ private[spark] class TaskSchedulerImpl(
     if (tasks.size > 0) {
       hasLaunchedTask = true
     }
-    logInfo("##### ##### ##### ##### leave resourceOffers, offer size: %d".format(offers.size))
+//    logInfo("##### ##### ##### ##### leave resourceOffers, offer size: %d".format(offers.size))
     return tasks
   }
 
@@ -507,10 +507,10 @@ private[spark] class TaskSchedulerImpl(
     }
     val increasedValue = taskSetManager.handleSuccessfulTask(tid, taskResult)
     cummulativeWasteTimeRigid += increasedValue
-    if (increasedValue > 0) {
-      logInfo("##### ##### stage %d finish, increase cummulativeWastTimeRigid by: %d"
-        .format(taskSetManager.stageId, increasedValue))
-    }
+//    if (increasedValue > 0) {
+//      logInfo("##### ##### stage %d finish, increase cummulativeWastTimeRigid by: %d"
+//        .format(taskSetManager.stageId, increasedValue))
+//    }
   }
 
   def handleFailedTask(
