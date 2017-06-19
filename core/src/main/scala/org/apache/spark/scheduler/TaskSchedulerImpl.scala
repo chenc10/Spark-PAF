@@ -552,13 +552,11 @@ private[spark] class TaskSchedulerImpl(
   // add by cc
   override def stopReservation(threadId: Int): Unit = {
     waivedThreadIdList += threadId
-    logInf("##### <ssr> stop reserve slots for app: " + threadId)
+    logInfo("##### <ssr> stop reserve slots for app: " + threadId)
     backend.reviveOffers()
   }
 
   override def stop() {
-    logInfo("$$$$$ $$$$$ $$$$$ cummulativeWasteTime: %d".format(cummulativeWasteTime))
-    logInfo("$$$$$ $$$$$ $$$$$ cummulativeWasteTimeRigid: %d".format(cummulativeWasteTimeRigid))
     speculationScheduler.shutdown()
     if (backend != null) {
       backend.stop()

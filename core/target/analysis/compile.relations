@@ -3758,6 +3758,9 @@ products:
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/Pool$$anonfun$getSortedTaskSetQueue$2$$anonfun$apply$5.class
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/Pool$$anonfun$getSortedTaskSetQueue$2.class
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/Pool$$anonfun$getSortedTaskSetQueue$3.class
+   core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/Pool$$anonfun$getSortedTaskSetQueue$4$$anonfun$apply$6.class
+   core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/Pool$$anonfun$getSortedTaskSetQueue$4.class
+   core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/Pool$$anonfun$getSortedTaskSetQueue$5.class
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/Pool$$anonfun$getTargetShare$1.class
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/Pool$$anonfun$getTargetShare$10.class
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/Pool$$anonfun$getTargetShare$11.class
@@ -3985,7 +3988,6 @@ products:
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$executorLost$2.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$getExecutorsAliveOnHost$1.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$handleFailedTask$1.class
-   core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$initialize$1.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$isExecutorBusy$1.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$liftedTree2$1$1.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$liftedTree2$1$2.class
@@ -4011,8 +4013,7 @@ products:
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$resourceOffers$3.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$start$1.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$statusUpdate$1.class
-   core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$stop$1.class
-   core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$stop$2.class
+   core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$stopReservation$1.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$submitTasks$1.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$submitTasks$2.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl$$anonfun$submitTasks$3.class
@@ -4079,6 +4080,7 @@ products:
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$$anonfun$executorLost$4.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$$anonfun$executorLost$5.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$$anonfun$executorLost$6.class
+   core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$$anonfun$genDeadline$1.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$$anonfun$getAllowedLocalityLevel$1.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$$anonfun$getAllowedLocalityLevel$2.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$$anonfun$getPendingTasksForExecutor$1.class
@@ -4103,6 +4105,7 @@ products:
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$$anonfun$recomputeLocality$1.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$$anonfun$resourceOffer$1.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$$anonfun$resourceOffer$2.class
+   core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$$anonfun$resourceOffer$3.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager$.class
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSetManager.class
    core/src/main/scala/org/apache/spark/scheduler/WorkerOffer.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/WorkerOffer$.class
@@ -4173,14 +4176,12 @@ products:
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$org$apache$spark$scheduler$cluster$CoarseGrainedSchedulerBackend$DriverEndpoint$$makeOffers$2.class
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receive$1$$anonfun$applyOrElse$1.class
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receive$1$$anonfun$applyOrElse$2.class
-   core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receive$1$$anonfun$applyOrElse$3.class
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receive$1.class
+   core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$3.class
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$4.class
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$5.class
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$6.class
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$7.class
-   core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$8.class
-   core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$9.class
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1.class
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$removeExecutor$1.class
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend$DriverEndpoint.class
@@ -10241,6 +10242,7 @@ source dependencies:
    core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala -> core/src/main/scala/org/apache/spark/scheduler/Pool.scala
    core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala -> core/src/main/scala/org/apache/spark/scheduler/Schedulable.scala
    core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala -> core/src/main/scala/org/apache/spark/scheduler/SchedulingMode.scala
+   core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala -> core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala
    core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala -> core/src/main/scala/org/apache/spark/util/Utils.scala
    core/src/main/scala/org/apache/spark/scheduler/SchedulingAlgorithm.scala -> core/src/main/scala/org/apache/spark/scheduler/Schedulable.scala
    core/src/main/scala/org/apache/spark/scheduler/ShuffleMapStage.scala -> core/src/main/scala/org/apache/spark/Dependency.scala
@@ -15171,6 +15173,9 @@ class names:
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> org.apache.spark.scheduler.Pool$$anonfun$getSortedTaskSetQueue$2
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> org.apache.spark.scheduler.Pool$$anonfun$getSortedTaskSetQueue$2$$anonfun$apply$5
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> org.apache.spark.scheduler.Pool$$anonfun$getSortedTaskSetQueue$3
+   core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> org.apache.spark.scheduler.Pool$$anonfun$getSortedTaskSetQueue$4
+   core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> org.apache.spark.scheduler.Pool$$anonfun$getSortedTaskSetQueue$4$$anonfun$apply$6
+   core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> org.apache.spark.scheduler.Pool$$anonfun$getSortedTaskSetQueue$5
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> org.apache.spark.scheduler.Pool$$anonfun$getTargetShare$1
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> org.apache.spark.scheduler.Pool$$anonfun$getTargetShare$10
    core/src/main/scala/org/apache/spark/scheduler/Pool.scala -> org.apache.spark.scheduler.Pool$$anonfun$getTargetShare$11
@@ -15399,7 +15404,6 @@ class names:
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$executorLost$2
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$getExecutorsAliveOnHost$1
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$handleFailedTask$1
-   core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$initialize$1
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$isExecutorBusy$1
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$liftedTree2$1$1
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$liftedTree2$1$2
@@ -15425,8 +15429,7 @@ class names:
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$resourceOffers$3$$anonfun$apply$8
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$start$1
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$statusUpdate$1
-   core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$stop$1
-   core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$stop$2
+   core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$stopReservation$1
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$submitTasks$1
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$submitTasks$2
    core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala -> org.apache.spark.scheduler.TaskSchedulerImpl$$anonfun$submitTasks$3
@@ -15493,6 +15496,7 @@ class names:
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> org.apache.spark.scheduler.TaskSetManager$$anonfun$executorLost$4
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> org.apache.spark.scheduler.TaskSetManager$$anonfun$executorLost$5
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> org.apache.spark.scheduler.TaskSetManager$$anonfun$executorLost$6
+   core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> org.apache.spark.scheduler.TaskSetManager$$anonfun$genDeadline$1
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> org.apache.spark.scheduler.TaskSetManager$$anonfun$getAllowedLocalityLevel$1
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> org.apache.spark.scheduler.TaskSetManager$$anonfun$getAllowedLocalityLevel$2
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> org.apache.spark.scheduler.TaskSetManager$$anonfun$getPendingTasksForExecutor$1
@@ -15517,6 +15521,7 @@ class names:
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> org.apache.spark.scheduler.TaskSetManager$$anonfun$recomputeLocality$1
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> org.apache.spark.scheduler.TaskSetManager$$anonfun$resourceOffer$1
    core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> org.apache.spark.scheduler.TaskSetManager$$anonfun$resourceOffer$2
+   core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala -> org.apache.spark.scheduler.TaskSetManager$$anonfun$resourceOffer$3
    core/src/main/scala/org/apache/spark/scheduler/WorkerOffer.scala -> org.apache.spark.scheduler.WorkerOffer
    core/src/main/scala/org/apache/spark/scheduler/WorkerOffer.scala -> org.apache.spark.scheduler.WorkerOffer$
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedClusterMessage.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedClusterMessage
@@ -15588,14 +15593,12 @@ class names:
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receive$1
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receive$1$$anonfun$applyOrElse$1
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receive$1$$anonfun$applyOrElse$2
-   core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receive$1$$anonfun$applyOrElse$3
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1
+   core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$3
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$4
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$5
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$6
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$7
-   core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$8
-   core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$receiveAndReply$1$$anonfun$applyOrElse$9
    core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala -> org.apache.spark.scheduler.cluster.CoarseGrainedSchedulerBackend$DriverEndpoint$$anonfun$removeExecutor$1
    core/src/main/scala/org/apache/spark/scheduler/cluster/ExecutorData.scala -> org.apache.spark.scheduler.cluster.ExecutorData
    core/src/main/scala/org/apache/spark/scheduler/cluster/ExecutorInfo.scala -> org.apache.spark.scheduler.cluster.ExecutorInfo
