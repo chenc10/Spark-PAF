@@ -381,6 +381,14 @@ private[spark] class Pool(
       }
       logInfo("##### ##### End printing in PAF")
     }
+    if (schedulingMode == SchedulingMode.FAIR) {
+      for (taskSetManager <- sortedTaskSetQueue) {
+        logInfo("##### ##### Print sortedResult in Queue: JobId-%d StageId-%d | priority-%d"
+          .format(taskSetManager.jobId, taskSetManager.stageId,
+            taskSetManager.priority))
+      }
+      logInfo("##### ##### End printing in FAIR")
+    }
     sortedTaskSetQueue
   }
 

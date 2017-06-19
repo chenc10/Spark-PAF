@@ -29,63 +29,63 @@ products:
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/UploadBlock.java -> network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/UploadBlock.class
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/mesos/RegisterDriver.java -> network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/mesos/RegisterDriver.class
 binary dependencies:
-   network/shuffle/src/main/java/org/apache/spark/network/sasl/ShuffleSecretManager.java -> /home/hadoop/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+   network/shuffle/src/main/java/org/apache/spark/network/sasl/ShuffleSecretManager.java -> /root/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
    network/shuffle/src/main/java/org/apache/spark/network/sasl/ShuffleSecretManager.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/sasl/ShuffleSecretManager.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/sasl/ShuffleSecretManager.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/BlockFetchingListener.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/BlockFetchingListener.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.java -> /home/hadoop/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/BlockFetchingListener.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.java -> /root/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java -> /home/hadoop/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java -> /home/hadoop/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java -> /home/hadoop/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java -> /root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java -> /root/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java -> /root/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleClient.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleClient.java -> /home/hadoop/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleClient.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleClient.java -> /root/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleClient.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleClient.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/OneForOneBlockFetcher.java -> /home/hadoop/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleClient.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/OneForOneBlockFetcher.java -> /root/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/OneForOneBlockFetcher.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/OneForOneBlockFetcher.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/RetryingBlockFetcher.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/RetryingBlockFetcher.java -> /home/hadoop/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/OneForOneBlockFetcher.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/RetryingBlockFetcher.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/RetryingBlockFetcher.java -> /root/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/RetryingBlockFetcher.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/RetryingBlockFetcher.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ShuffleClient.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/mesos/MesosExternalShuffleClient.java -> /home/hadoop/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/RetryingBlockFetcher.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/ShuffleClient.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/mesos/MesosExternalShuffleClient.java -> /root/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/mesos/MesosExternalShuffleClient.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/mesos/MesosExternalShuffleClient.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/BlockTransferMessage.java -> /home/hadoop/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/mesos/MesosExternalShuffleClient.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/BlockTransferMessage.java -> /root/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/BlockTransferMessage.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/BlockTransferMessage.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/ExecutorShuffleInfo.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/ExecutorShuffleInfo.java -> /home/hadoop/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/BlockTransferMessage.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/ExecutorShuffleInfo.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/ExecutorShuffleInfo.java -> /root/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/ExecutorShuffleInfo.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/ExecutorShuffleInfo.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/OpenBlocks.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/OpenBlocks.java -> /home/hadoop/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/ExecutorShuffleInfo.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/OpenBlocks.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/OpenBlocks.java -> /root/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/OpenBlocks.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/OpenBlocks.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/RegisterExecutor.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/RegisterExecutor.java -> /home/hadoop/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/OpenBlocks.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/RegisterExecutor.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/RegisterExecutor.java -> /root/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/RegisterExecutor.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/RegisterExecutor.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/StreamHandle.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/StreamHandle.java -> /home/hadoop/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/RegisterExecutor.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/StreamHandle.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/StreamHandle.java -> /root/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/StreamHandle.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/StreamHandle.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/UploadBlock.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/UploadBlock.java -> /home/hadoop/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/StreamHandle.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/UploadBlock.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/UploadBlock.java -> /root/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/UploadBlock.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/UploadBlock.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/mesos/RegisterDriver.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/mesos/RegisterDriver.java -> /home/hadoop/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/UploadBlock.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/mesos/RegisterDriver.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/mesos/RegisterDriver.java -> /root/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/mesos/RegisterDriver.java -> network/common/target/spark-network-common_2.10-1.6.1.jar
-   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/mesos/RegisterDriver.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   network/shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/mesos/RegisterDriver.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
    network/shuffle/src/main/java/org/apache/spark/network/sasl/ShuffleSecretManager.java -> network/shuffle/src/main/java/org/apache/spark/network/sasl/ShuffleSecretManager.java
    network/shuffle/src/main/java/org/apache/spark/network/shuffle/BlockFetchingListener.java -> network/shuffle/src/main/java/org/apache/spark/network/shuffle/BlockFetchingListener.java

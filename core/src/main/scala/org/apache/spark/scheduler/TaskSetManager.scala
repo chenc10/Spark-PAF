@@ -683,9 +683,6 @@ private[spark] class TaskSetManager(
 //            .format(firstTaskStartTime%1000000, lastTaskStartTime%1000000,
 //              firstTaskFinishTime%1000000, lastTaskFinishTime%1000000))
 //          logInfo("AAAAA AAAAA AAAAA v1: %.2f".format(v1.toFloat))
-	        if (v1 > 10000){
-		      v1 = 1000
-	        }
           slotReserveDeadline = lastTaskStartTime + (firstTaskRunTime * v1).toLong
         }
       }

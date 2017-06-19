@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main">
-  <mkdir dir="/media/psf/Home/Documents/spark-1.6.1/sql/catalyst/target/tmp"/>
+  <mkdir dir="/root/Spark-PAF/sql/catalyst/target/tmp"/>
 </target>
 </project>

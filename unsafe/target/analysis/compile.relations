@@ -14,21 +14,21 @@ products:
    unsafe/src/main/java/org/apache/spark/unsafe/types/CalendarInterval.java -> unsafe/target/scala-2.10/classes/org/apache/spark/unsafe/types/CalendarInterval.class
    unsafe/src/main/java/org/apache/spark/unsafe/types/UTF8String.java -> unsafe/target/scala-2.10/classes/org/apache/spark/unsafe/types/UTF8String.class
 binary dependencies:
-   unsafe/src/main/java/org/apache/spark/unsafe/KVIterator.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/Platform.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/array/ByteArrayMethods.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/array/LongArray.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/bitset/BitSetMethods.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/hash/Murmur3_x86_32.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/memory/HeapMemoryAllocator.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/memory/MemoryAllocator.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/memory/MemoryBlock.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/memory/MemoryLocation.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/memory/UnsafeMemoryAllocator.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/types/ByteArray.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/types/CalendarInterval.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/types/UTF8String.java -> /home/hadoop/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar
-   unsafe/src/main/java/org/apache/spark/unsafe/types/UTF8String.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/KVIterator.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/Platform.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/array/ByteArrayMethods.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/array/LongArray.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/bitset/BitSetMethods.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/hash/Murmur3_x86_32.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/memory/HeapMemoryAllocator.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/memory/MemoryAllocator.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/memory/MemoryBlock.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/memory/MemoryLocation.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/memory/UnsafeMemoryAllocator.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/types/ByteArray.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/types/CalendarInterval.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/types/UTF8String.java -> /root/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar
+   unsafe/src/main/java/org/apache/spark/unsafe/types/UTF8String.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
    unsafe/src/main/java/org/apache/spark/unsafe/KVIterator.java -> unsafe/src/main/java/org/apache/spark/unsafe/KVIterator.java
    unsafe/src/main/java/org/apache/spark/unsafe/Platform.java -> unsafe/src/main/java/org/apache/spark/unsafe/Platform.java

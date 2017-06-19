@@ -70,22 +70,22 @@ products:
    unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> unsafe/target/scala-2.10/test-classes/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite$$anonfun$9.class
    unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> unsafe/target/scala-2.10/test-classes/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.class
 binary dependencies:
-   unsafe/src/test/java/org/apache/spark/unsafe/PlatformUtilSuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   unsafe/src/test/java/org/apache/spark/unsafe/PlatformUtilSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/test/java/org/apache/spark/unsafe/array/LongArraySuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   unsafe/src/test/java/org/apache/spark/unsafe/array/LongArraySuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/test/java/org/apache/spark/unsafe/hash/Murmur3_x86_32Suite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   unsafe/src/test/java/org/apache/spark/unsafe/hash/Murmur3_x86_32Suite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/test/java/org/apache/spark/unsafe/types/CalendarIntervalSuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   unsafe/src/test/java/org/apache/spark/unsafe/types/CalendarIntervalSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/test/java/org/apache/spark/unsafe/types/UTF8StringSuite.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   unsafe/src/test/java/org/apache/spark/unsafe/types/UTF8StringSuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   unsafe/src/test/java/org/apache/spark/unsafe/types/UTF8StringSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> /home/hadoop/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar
-   unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> /home/hadoop/.m2/repository/org/scalacheck/scalacheck_2.10/1.11.3/scalacheck_2.10-1.11.3.jar
-   unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
-   unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   unsafe/src/test/java/org/apache/spark/unsafe/PlatformUtilSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   unsafe/src/test/java/org/apache/spark/unsafe/PlatformUtilSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/test/java/org/apache/spark/unsafe/array/LongArraySuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   unsafe/src/test/java/org/apache/spark/unsafe/array/LongArraySuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/test/java/org/apache/spark/unsafe/hash/Murmur3_x86_32Suite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   unsafe/src/test/java/org/apache/spark/unsafe/hash/Murmur3_x86_32Suite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/test/java/org/apache/spark/unsafe/types/CalendarIntervalSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   unsafe/src/test/java/org/apache/spark/unsafe/types/CalendarIntervalSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/test/java/org/apache/spark/unsafe/types/UTF8StringSuite.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   unsafe/src/test/java/org/apache/spark/unsafe/types/UTF8StringSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   unsafe/src/test/java/org/apache/spark/unsafe/types/UTF8StringSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> /root/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar
+   unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> /root/.m2/repository/org/scalacheck/scalacheck_2.10/1.11.3/scalacheck_2.10-1.11.3.jar
+   unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   unsafe/src/test/scala/org/apache/spark/unsafe/types/UTF8StringPropertyCheckSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
    unsafe/src/test/java/org/apache/spark/unsafe/PlatformUtilSuite.java -> unsafe/src/test/java/org/apache/spark/unsafe/PlatformUtilSuite.java
    unsafe/src/test/java/org/apache/spark/unsafe/array/LongArraySuite.java -> unsafe/src/test/java/org/apache/spark/unsafe/array/LongArraySuite.java

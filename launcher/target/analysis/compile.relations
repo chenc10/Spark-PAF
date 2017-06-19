@@ -32,20 +32,20 @@ products:
    launcher/src/main/java/org/apache/spark/launcher/SparkSubmitCommandBuilder.java -> launcher/target/scala-2.10/classes/org/apache/spark/launcher/SparkSubmitCommandBuilder.class
    launcher/src/main/java/org/apache/spark/launcher/SparkSubmitOptionParser.java -> launcher/target/scala-2.10/classes/org/apache/spark/launcher/SparkSubmitOptionParser.class
 binary dependencies:
-   launcher/src/main/java/org/apache/spark/launcher/AbstractCommandBuilder.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/ChildProcAppHandle.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/CommandBuilderUtils.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/LauncherConnection.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/LauncherProtocol.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/LauncherServer.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/Main.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/NamedThreadFactory.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/OutputRedirector.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/SparkAppHandle.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/SparkClassCommandBuilder.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/SparkLauncher.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/SparkSubmitCommandBuilder.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/main/java/org/apache/spark/launcher/SparkSubmitOptionParser.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/AbstractCommandBuilder.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/ChildProcAppHandle.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/CommandBuilderUtils.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/LauncherConnection.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/LauncherProtocol.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/LauncherServer.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/Main.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/NamedThreadFactory.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/OutputRedirector.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/SparkAppHandle.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/SparkClassCommandBuilder.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/SparkLauncher.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/SparkSubmitCommandBuilder.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/main/java/org/apache/spark/launcher/SparkSubmitOptionParser.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
    launcher/src/main/java/org/apache/spark/launcher/AbstractCommandBuilder.java -> launcher/src/main/java/org/apache/spark/launcher/AbstractCommandBuilder.java
    launcher/src/main/java/org/apache/spark/launcher/AbstractCommandBuilder.java -> launcher/src/main/java/org/apache/spark/launcher/CommandBuilderUtils.java

@@ -121,7 +121,6 @@ class CoarseGrainedSchedulerBackend(scheduler: TaskSchedulerImpl, val rpcEnv: Rp
 
       case ReviveOffers =>
         makeOffers()
-        logInfo("MMMMM MMMMM: makeOffers in receive: PartialFunction")
 
       case KillTask(taskId, executorId, interruptThread) =>
         executorDataMap.get(executorId) match {
@@ -165,7 +164,6 @@ class CoarseGrainedSchedulerBackend(scheduler: TaskSchedulerImpl, val rpcEnv: Rp
           context.reply(RegisteredExecutor(executorAddress.host))
           listenerBus.post(
             SparkListenerExecutorAdded(System.currentTimeMillis(), executorId, data))
-          logInfo("MMMMM MMMMM: makeOffers in receiveAndReply; listenerBus")
           makeOffers()
         }
 

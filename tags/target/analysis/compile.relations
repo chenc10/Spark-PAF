@@ -3,9 +3,9 @@ products:
    tags/src/main/java/org/apache/spark/tags/ExtendedHiveTest.java -> tags/target/scala-2.10/classes/org/apache/spark/tags/ExtendedHiveTest.class
    tags/src/main/java/org/apache/spark/tags/ExtendedYarnTest.java -> tags/target/scala-2.10/classes/org/apache/spark/tags/ExtendedYarnTest.class
 binary dependencies:
-   tags/src/main/java/org/apache/spark/tags/DockerTest.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   tags/src/main/java/org/apache/spark/tags/ExtendedHiveTest.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   tags/src/main/java/org/apache/spark/tags/ExtendedYarnTest.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   tags/src/main/java/org/apache/spark/tags/DockerTest.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   tags/src/main/java/org/apache/spark/tags/ExtendedHiveTest.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   tags/src/main/java/org/apache/spark/tags/ExtendedYarnTest.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
    tags/src/main/java/org/apache/spark/tags/DockerTest.java -> tags/src/main/java/org/apache/spark/tags/DockerTest.java
    tags/src/main/java/org/apache/spark/tags/ExtendedHiveTest.java -> tags/src/main/java/org/apache/spark/tags/ExtendedHiveTest.java

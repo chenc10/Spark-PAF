@@ -1591,244 +1591,244 @@ products:
    streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.scala -> streaming/target/scala-2.10/test-classes/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.class
    streaming/src/test/scala/org/apache/spark/streamingtest/ImplicitSuite.scala -> streaming/target/scala-2.10/test-classes/org/apache/spark/streamingtest/ImplicitSuite.class
 binary dependencies:
-   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaDurationSuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaDurationSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaMapWithStateSuite.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaMapWithStateSuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaMapWithStateSuite.java -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaDurationSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaDurationSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaMapWithStateSuite.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaMapWithStateSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaMapWithStateSuite.java -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    streaming/src/test/java/org/apache/spark/streaming/JavaMapWithStateSuite.java -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaMapWithStateSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaReceiverAPISuite.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaReceiverAPISuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaMapWithStateSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaReceiverAPISuite.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaReceiverAPISuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
    streaming/src/test/java/org/apache/spark/streaming/JavaReceiverAPISuite.java -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaReceiverAPISuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaStreamingListenerAPISuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaTestUtils.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaTestUtils.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaReceiverAPISuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaStreamingListenerAPISuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaTestUtils.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaTestUtils.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/java/org/apache/spark/streaming/JavaTestUtils.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/java/org/apache/spark/streaming/JavaTestUtils.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaTestUtils.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaTimeSuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaTimeSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaWriteAheadLogSuite.java -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaWriteAheadLogSuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaTestUtils.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaTimeSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaTimeSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaWriteAheadLogSuite.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaWriteAheadLogSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
    streaming/src/test/java/org/apache/spark/streaming/JavaWriteAheadLogSuite.java -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/java/org/apache/spark/streaming/JavaWriteAheadLogSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   streaming/src/test/java/org/apache/spark/streaming/JavaWriteAheadLogSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
    streaming/src/test/java/org/apache/spark/streaming/LocalJavaStreamingContext.java -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/java/org/apache/spark/streaming/LocalJavaStreamingContext.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/java/org/apache/spark/streaming/api/java/JavaStreamingListenerWrapperSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/java/org/apache/spark/streaming/api/java/JavaStreamingListenerWrapperSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/java/org/apache/spark/streaming/LocalJavaStreamingContext.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/java/org/apache/spark/streaming/api/java/JavaStreamingListenerWrapperSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/java/org/apache/spark/streaming/api/java/JavaStreamingListenerWrapperSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/java/org/apache/spark/streaming/api/java/JavaStreamingListenerWrapperSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/java/org/apache/spark/streaming/api/java/JavaStreamingListenerWrapperSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/java/org/apache/spark/streaming/api/java/JavaStreamingListenerWrapperSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/BasicOperationsSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/BasicOperationsSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/java/org/apache/spark/streaming/api/java/JavaStreamingListenerWrapperSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/BasicOperationsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/BasicOperationsSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/BasicOperationsSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/BasicOperationsSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/BasicOperationsSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
-   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /home/hadoop/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/BasicOperationsSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
+   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/DStreamClosureSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/DStreamClosureSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/CheckpointSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/DStreamClosureSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/DStreamClosureSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/DStreamClosureSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/DStreamClosureSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/DStreamClosureSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/DStreamScopeSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/DStreamScopeSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/DStreamClosureSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/DStreamScopeSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/DStreamScopeSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/DStreamScopeSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/DStreamScopeSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/DStreamScopeSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/DurationSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/DurationSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/DStreamScopeSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/DurationSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/DurationSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/DurationSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/DurationSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/DurationSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/FailureSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/FailureSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/DurationSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/FailureSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/FailureSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/FailureSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/FailureSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/FailureSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
-   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/FailureSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
+   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/MapWithStateSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/MapWithStateSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/InputStreamsSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/MapWithStateSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/MapWithStateSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/MapWithStateSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/MapWithStateSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/MapWithStateSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/MasterFailureTest.scala -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/MasterFailureTest.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   streaming/src/test/scala/org/apache/spark/streaming/MasterFailureTest.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/MapWithStateSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/MasterFailureTest.scala -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/MasterFailureTest.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   streaming/src/test/scala/org/apache/spark/streaming/MasterFailureTest.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    streaming/src/test/scala/org/apache/spark/streaming/MasterFailureTest.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/MasterFailureTest.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockHandlerSuite.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockHandlerSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockHandlerSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/MasterFailureTest.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockHandlerSuite.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockHandlerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockHandlerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockHandlerSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockHandlerSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockHandlerSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockTrackerSuite.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockTrackerSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockTrackerSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockHandlerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockTrackerSuite.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockTrackerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockTrackerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockTrackerSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockTrackerSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockTrackerSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceiverInputDStreamSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceiverInputDStreamSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceivedBlockTrackerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceiverInputDStreamSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceiverInputDStreamSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/ReceiverInputDStreamSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/ReceiverInputDStreamSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceiverInputDStreamSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceiverSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceiverSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceiverInputDStreamSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceiverSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceiverSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/ReceiverSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/ReceiverSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ReceiverSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StateMapSuite.scala -> /home/hadoop/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StateMapSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StateMapSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ReceiverSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StateMapSuite.scala -> /root/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StateMapSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StateMapSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/StateMapSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/StateMapSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StateMapSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> /home/hadoop/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StateMapSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> /root/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StreamingListenerSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StreamingListenerSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StreamingContextSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StreamingListenerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StreamingListenerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/StreamingListenerSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/StreamingListenerSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/StreamingListenerSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/TestSuiteBase.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/TestSuiteBase.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/StreamingListenerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/TestSuiteBase.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/TestSuiteBase.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/TestSuiteBase.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/TestSuiteBase.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/TestSuiteBase.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/TimeSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/TimeSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/TestSuiteBase.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/TimeSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/TimeSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/TimeSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/TimeSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/TimeSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /home/hadoop/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.14/htmlunit-2.14.jar
-   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /home/hadoop/.m2/repository/org/seleniumhq/selenium/selenium-api/2.42.2/selenium-api-2.42.2.jar
-   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /home/hadoop/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.42.2/selenium-htmlunit-driver-2.42.2.jar
+   streaming/src/test/scala/org/apache/spark/streaming/TimeSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /root/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.14/htmlunit-2.14.jar
+   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /root/.m2/repository/org/seleniumhq/selenium/selenium-api/2.42.2/selenium-api-2.42.2.jar
+   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /root/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.42.2/selenium-htmlunit-driver-2.42.2.jar
    streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/WindowOperationsSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/WindowOperationsSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/UISeleniumSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/WindowOperationsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/WindowOperationsSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/WindowOperationsSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/WindowOperationsSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/WindowOperationsSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/rdd/MapWithStateRDDSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/rdd/MapWithStateRDDSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/WindowOperationsSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/rdd/MapWithStateRDDSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/rdd/MapWithStateRDDSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/rdd/MapWithStateRDDSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/rdd/MapWithStateRDDSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/rdd/MapWithStateRDDSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/rdd/WriteAheadLogBackedBlockRDDSuite.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   streaming/src/test/scala/org/apache/spark/streaming/rdd/WriteAheadLogBackedBlockRDDSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/rdd/WriteAheadLogBackedBlockRDDSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/rdd/MapWithStateRDDSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/rdd/WriteAheadLogBackedBlockRDDSuite.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   streaming/src/test/scala/org/apache/spark/streaming/rdd/WriteAheadLogBackedBlockRDDSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/rdd/WriteAheadLogBackedBlockRDDSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/rdd/WriteAheadLogBackedBlockRDDSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/rdd/WriteAheadLogBackedBlockRDDSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/rdd/WriteAheadLogBackedBlockRDDSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/receiver/BlockGeneratorSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/receiver/BlockGeneratorSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/rdd/WriteAheadLogBackedBlockRDDSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/receiver/BlockGeneratorSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/receiver/BlockGeneratorSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/receiver/BlockGeneratorSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/receiver/BlockGeneratorSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/receiver/BlockGeneratorSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/receiver/RateLimiterSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/receiver/RateLimiterSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/receiver/BlockGeneratorSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/receiver/RateLimiterSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/receiver/RateLimiterSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/receiver/RateLimiterSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/receiver/RateLimiterSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/receiver/RateLimiterSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/InputInfoTrackerSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/InputInfoTrackerSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/receiver/RateLimiterSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/InputInfoTrackerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/InputInfoTrackerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/InputInfoTrackerSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/InputInfoTrackerSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/InputInfoTrackerSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/JobGeneratorSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/JobGeneratorSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/InputInfoTrackerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/JobGeneratorSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/JobGeneratorSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/JobGeneratorSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/JobGeneratorSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/JobGeneratorSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/RateControllerSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/RateControllerSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/JobGeneratorSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/RateControllerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/RateControllerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/RateControllerSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/RateControllerSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/RateControllerSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverSchedulingPolicySuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverSchedulingPolicySuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/RateControllerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverSchedulingPolicySuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverSchedulingPolicySuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverSchedulingPolicySuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverSchedulingPolicySuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverSchedulingPolicySuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverTrackerSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverTrackerSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverSchedulingPolicySuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverTrackerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverTrackerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverTrackerSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverTrackerSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverTrackerSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/rate/PIDRateEstimatorSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/rate/PIDRateEstimatorSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/ReceiverTrackerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/rate/PIDRateEstimatorSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/rate/PIDRateEstimatorSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/rate/PIDRateEstimatorSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/scheduler/rate/PIDRateEstimatorSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/scheduler/rate/PIDRateEstimatorSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ui/StreamingJobProgressListenerSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ui/StreamingJobProgressListenerSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/scheduler/rate/PIDRateEstimatorSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ui/StreamingJobProgressListenerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ui/StreamingJobProgressListenerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/ui/StreamingJobProgressListenerSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/ui/StreamingJobProgressListenerSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ui/StreamingJobProgressListenerSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ui/UIUtilsSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ui/UIUtilsSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ui/StreamingJobProgressListenerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ui/UIUtilsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ui/UIUtilsSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/ui/UIUtilsSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/ui/UIUtilsSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/ui/UIUtilsSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/RateLimitedOutputStreamSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/RateLimitedOutputStreamSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/ui/UIUtilsSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/RateLimitedOutputStreamSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/RateLimitedOutputStreamSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/util/RateLimitedOutputStreamSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/util/RateLimitedOutputStreamSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/RateLimitedOutputStreamSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/RecurringTimerSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/RecurringTimerSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/RateLimitedOutputStreamSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/RecurringTimerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/RecurringTimerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/util/RecurringTimerSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/util/RecurringTimerSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/RecurringTimerSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> /home/hadoop/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/RecurringTimerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> /root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   streaming/src/test/scala/org/apache/spark/streamingtest/ImplicitSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   streaming/src/test/scala/org/apache/spark/streamingtest/ImplicitSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streaming/util/WriteAheadLogUtilsSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   streaming/src/test/scala/org/apache/spark/streamingtest/ImplicitSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   streaming/src/test/scala/org/apache/spark/streamingtest/ImplicitSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
    streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java
    streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java -> streaming/src/test/java/org/apache/spark/streaming/JavaTestUtils.scala

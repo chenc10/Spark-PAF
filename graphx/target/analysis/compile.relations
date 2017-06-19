@@ -422,112 +422,112 @@ products:
    graphx/src/main/scala/org/apache/spark/graphx/util/package.scala -> graphx/target/scala-2.10/classes/org/apache/spark/graphx/util/package$.class
    graphx/src/main/scala/org/apache/spark/graphx/util/package.scala -> graphx/target/scala-2.10/classes/org/apache/spark/graphx/util/package.class
 binary dependencies:
-   graphx/src/main/java/org/apache/spark/graphx/TripletFields.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/java/org/apache/spark/graphx/impl/EdgeActiveness.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/Edge.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/java/org/apache/spark/graphx/TripletFields.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/java/org/apache/spark/graphx/impl/EdgeActiveness.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/Edge.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/Edge.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/Edge.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/EdgeContext.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/main/scala/org/apache/spark/graphx/EdgeContext.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/EdgeDirection.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/main/scala/org/apache/spark/graphx/EdgeDirection.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/EdgeRDD.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/Edge.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/EdgeContext.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/EdgeContext.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/EdgeDirection.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/EdgeDirection.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/EdgeRDD.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/EdgeRDD.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/EdgeRDD.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/EdgeTriplet.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/main/scala/org/apache/spark/graphx/EdgeTriplet.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/Graph.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/EdgeRDD.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/EdgeTriplet.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/EdgeTriplet.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/Graph.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/Graph.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/Graph.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/GraphKryoRegistrator.scala -> /home/hadoop/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar
-   graphx/src/main/scala/org/apache/spark/graphx/GraphKryoRegistrator.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/Graph.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/GraphKryoRegistrator.scala -> /root/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar
+   graphx/src/main/scala/org/apache/spark/graphx/GraphKryoRegistrator.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/GraphKryoRegistrator.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/GraphKryoRegistrator.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/GraphLoader.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/GraphKryoRegistrator.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/GraphLoader.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/GraphLoader.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/GraphLoader.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/GraphOps.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/GraphLoader.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/GraphOps.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/GraphOps.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/GraphOps.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/GraphXUtils.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/GraphOps.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/GraphXUtils.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/GraphXUtils.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/GraphXUtils.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/PartitionStrategy.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/main/scala/org/apache/spark/graphx/PartitionStrategy.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/Pregel.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/GraphXUtils.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/PartitionStrategy.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/PartitionStrategy.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/Pregel.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/Pregel.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/Pregel.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/VertexRDD.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/Pregel.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/VertexRDD.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/VertexRDD.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/VertexRDD.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartition.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/VertexRDD.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartition.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartition.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartition.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartitionBuilder.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartition.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartitionBuilder.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartitionBuilder.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartitionBuilder.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgeRDDImpl.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartitionBuilder.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgeRDDImpl.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/EdgeRDDImpl.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgeRDDImpl.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/GraphImpl.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/EdgeRDDImpl.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/GraphImpl.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/GraphImpl.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/GraphImpl.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/ReplicatedVertexView.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/GraphImpl.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/ReplicatedVertexView.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/ReplicatedVertexView.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/ReplicatedVertexView.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/RoutingTablePartition.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/ReplicatedVertexView.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/RoutingTablePartition.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/RoutingTablePartition.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/RoutingTablePartition.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/ShippableVertexPartition.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/RoutingTablePartition.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/ShippableVertexPartition.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/ShippableVertexPartition.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/ShippableVertexPartition.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartition.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/ShippableVertexPartition.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartition.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartition.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartition.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBase.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartition.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBase.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBase.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBase.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBaseOps.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBase.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBaseOps.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBaseOps.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBaseOps.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexRDDImpl.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBaseOps.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexRDDImpl.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/VertexRDDImpl.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexRDDImpl.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/VertexRDDImpl.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
    graphx/src/main/scala/org/apache/spark/graphx/impl/package.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/impl/package.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/ConnectedComponents.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/ConnectedComponents.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/LabelPropagation.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/LabelPropagation.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/PageRank.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/impl/package.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/ConnectedComponents.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/ConnectedComponents.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/LabelPropagation.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/LabelPropagation.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/PageRank.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/lib/PageRank.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/PageRank.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/SVDPlusPlus.scala -> /home/hadoop/.m2/repository/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/SVDPlusPlus.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/PageRank.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/SVDPlusPlus.scala -> /root/.m2/repository/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/SVDPlusPlus.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/lib/SVDPlusPlus.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/SVDPlusPlus.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/ShortestPaths.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/ShortestPaths.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/StronglyConnectedComponents.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/StronglyConnectedComponents.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/TriangleCount.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/SVDPlusPlus.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/ShortestPaths.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/ShortestPaths.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/StronglyConnectedComponents.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/StronglyConnectedComponents.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/TriangleCount.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/lib/TriangleCount.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/TriangleCount.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/lib/package.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/package.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/TriangleCount.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/lib/package.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/package.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/package.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/package.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/util/BytecodeUtils.scala -> /home/hadoop/.m2/repository/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar
-   graphx/src/main/scala/org/apache/spark/graphx/util/BytecodeUtils.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/package.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/util/BytecodeUtils.scala -> /root/.m2/repository/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar
+   graphx/src/main/scala/org/apache/spark/graphx/util/BytecodeUtils.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/util/BytecodeUtils.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/util/BytecodeUtils.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/util/GraphGenerators.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/util/BytecodeUtils.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/util/GraphGenerators.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/util/GraphGenerators.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/util/GraphGenerators.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/util/collection/GraphXPrimitiveKeyOpenHashMap.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/main/scala/org/apache/spark/graphx/util/GraphGenerators.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/util/collection/GraphXPrimitiveKeyOpenHashMap.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/main/scala/org/apache/spark/graphx/util/collection/GraphXPrimitiveKeyOpenHashMap.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/main/scala/org/apache/spark/graphx/util/collection/GraphXPrimitiveKeyOpenHashMap.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/main/scala/org/apache/spark/graphx/util/package.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/util/collection/GraphXPrimitiveKeyOpenHashMap.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/main/scala/org/apache/spark/graphx/util/package.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
    graphx/src/main/java/org/apache/spark/graphx/TripletFields.java -> graphx/src/main/java/org/apache/spark/graphx/TripletFields.java
    graphx/src/main/java/org/apache/spark/graphx/impl/EdgeActiveness.java -> graphx/src/main/java/org/apache/spark/graphx/impl/EdgeActiveness.java

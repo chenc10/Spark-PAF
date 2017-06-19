@@ -9,16 +9,16 @@ products:
    launcher/src/test/java/org/apache/spark/launcher/SparkSubmitOptionParserSuite.java -> launcher/target/scala-2.10/test-classes/org/apache/spark/launcher/SparkSubmitOptionParserSuite$DummyParser.class
    launcher/src/test/java/org/apache/spark/launcher/SparkSubmitOptionParserSuite.java -> launcher/target/scala-2.10/test-classes/org/apache/spark/launcher/SparkSubmitOptionParserSuite.class
 binary dependencies:
-   launcher/src/test/java/org/apache/spark/launcher/BaseSuite.java -> /home/hadoop/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar
-   launcher/src/test/java/org/apache/spark/launcher/BaseSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/test/java/org/apache/spark/launcher/CommandBuilderUtilsSuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   launcher/src/test/java/org/apache/spark/launcher/CommandBuilderUtilsSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/test/java/org/apache/spark/launcher/LauncherServerSuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   launcher/src/test/java/org/apache/spark/launcher/LauncherServerSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/test/java/org/apache/spark/launcher/SparkSubmitCommandBuilderSuite.java -> /home/hadoop/.m2/repository/junit/junit/4.11/junit-4.11.jar
-   launcher/src/test/java/org/apache/spark/launcher/SparkSubmitCommandBuilderSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   launcher/src/test/java/org/apache/spark/launcher/SparkSubmitOptionParserSuite.java -> /home/hadoop/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
-   launcher/src/test/java/org/apache/spark/launcher/SparkSubmitOptionParserSuite.java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   launcher/src/test/java/org/apache/spark/launcher/BaseSuite.java -> /root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar
+   launcher/src/test/java/org/apache/spark/launcher/BaseSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/test/java/org/apache/spark/launcher/CommandBuilderUtilsSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   launcher/src/test/java/org/apache/spark/launcher/CommandBuilderUtilsSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/test/java/org/apache/spark/launcher/LauncherServerSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   launcher/src/test/java/org/apache/spark/launcher/LauncherServerSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/test/java/org/apache/spark/launcher/SparkSubmitCommandBuilderSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   launcher/src/test/java/org/apache/spark/launcher/SparkSubmitCommandBuilderSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   launcher/src/test/java/org/apache/spark/launcher/SparkSubmitOptionParserSuite.java -> /root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+   launcher/src/test/java/org/apache/spark/launcher/SparkSubmitOptionParserSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
    launcher/src/test/java/org/apache/spark/launcher/BaseSuite.java -> launcher/src/test/java/org/apache/spark/launcher/BaseSuite.java
    launcher/src/test/java/org/apache/spark/launcher/CommandBuilderUtilsSuite.java -> launcher/src/test/java/org/apache/spark/launcher/CommandBuilderUtilsSuite.java

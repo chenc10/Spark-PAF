@@ -528,94 +528,94 @@ products:
    graphx/src/test/scala/org/apache/spark/graphx/util/GraphGeneratorsSuite.scala -> graphx/target/scala-2.10/test-classes/org/apache/spark/graphx/util/GraphGeneratorsSuite$$anonfun$4.class
    graphx/src/test/scala/org/apache/spark/graphx/util/GraphGeneratorsSuite.scala -> graphx/target/scala-2.10/test-classes/org/apache/spark/graphx/util/GraphGeneratorsSuite.class
 binary dependencies:
-   graphx/src/test/scala/org/apache/spark/graphx/EdgeRDDSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/EdgeRDDSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/EdgeRDDSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/EdgeRDDSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/EdgeRDDSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/EdgeRDDSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/EdgeRDDSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/EdgeSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/EdgeSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/EdgeRDDSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/EdgeSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/EdgeSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/EdgeSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/EdgeSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/EdgeSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/GraphOpsSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/GraphOpsSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/EdgeSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/GraphOpsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/GraphOpsSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/GraphOpsSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/GraphOpsSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/GraphOpsSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/GraphSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/GraphSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/GraphOpsSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/GraphSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/GraphSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/GraphSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/GraphSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/GraphSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/LocalSparkContext.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/GraphSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/LocalSparkContext.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    graphx/src/test/scala/org/apache/spark/graphx/LocalSparkContext.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/LocalSparkContext.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/PregelSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/PregelSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/LocalSparkContext.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/PregelSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/PregelSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/PregelSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/PregelSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/PregelSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/VertexRDDSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/VertexRDDSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/PregelSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/VertexRDDSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/VertexRDDSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/VertexRDDSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/VertexRDDSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/VertexRDDSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/impl/EdgePartitionSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/impl/EdgePartitionSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/VertexRDDSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/impl/EdgePartitionSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/impl/EdgePartitionSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/impl/EdgePartitionSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/impl/EdgePartitionSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/impl/EdgePartitionSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/impl/VertexPartitionSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/impl/VertexPartitionSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/impl/EdgePartitionSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/impl/VertexPartitionSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/impl/VertexPartitionSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/impl/VertexPartitionSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/impl/VertexPartitionSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/impl/VertexPartitionSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/ConnectedComponentsSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/ConnectedComponentsSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/impl/VertexPartitionSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/ConnectedComponentsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/ConnectedComponentsSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/ConnectedComponentsSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/ConnectedComponentsSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/ConnectedComponentsSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/LabelPropagationSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/LabelPropagationSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/ConnectedComponentsSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/LabelPropagationSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/LabelPropagationSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/LabelPropagationSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/LabelPropagationSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/LabelPropagationSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/PageRankSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/PageRankSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/LabelPropagationSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/PageRankSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/PageRankSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/PageRankSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/PageRankSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/PageRankSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/SVDPlusPlusSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/SVDPlusPlusSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/PageRankSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/SVDPlusPlusSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/SVDPlusPlusSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/SVDPlusPlusSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/SVDPlusPlusSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/SVDPlusPlusSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/ShortestPathsSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/ShortestPathsSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/SVDPlusPlusSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/ShortestPathsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/ShortestPathsSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/ShortestPathsSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/ShortestPathsSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/ShortestPathsSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/StronglyConnectedComponentsSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/StronglyConnectedComponentsSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/ShortestPathsSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/StronglyConnectedComponentsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/StronglyConnectedComponentsSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/StronglyConnectedComponentsSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/StronglyConnectedComponentsSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/StronglyConnectedComponentsSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/TriangleCountSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/TriangleCountSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/StronglyConnectedComponentsSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/TriangleCountSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/TriangleCountSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/TriangleCountSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/lib/TriangleCountSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/lib/TriangleCountSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/util/BytecodeUtilsSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/util/BytecodeUtilsSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/lib/TriangleCountSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/util/BytecodeUtilsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/util/BytecodeUtilsSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/util/BytecodeUtilsSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/util/BytecodeUtilsSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/util/BytecodeUtilsSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   graphx/src/test/scala/org/apache/spark/graphx/util/GraphGeneratorsSuite.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   graphx/src/test/scala/org/apache/spark/graphx/util/GraphGeneratorsSuite.scala -> /home/hadoop/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
+   graphx/src/test/scala/org/apache/spark/graphx/util/BytecodeUtilsSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/util/GraphGeneratorsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   graphx/src/test/scala/org/apache/spark/graphx/util/GraphGeneratorsSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    graphx/src/test/scala/org/apache/spark/graphx/util/GraphGeneratorsSuite.scala -> core/target/spark-core_2.10-1.6.1-tests.jar
    graphx/src/test/scala/org/apache/spark/graphx/util/GraphGeneratorsSuite.scala -> core/target/spark-core_2.10-1.6.1.jar
-   graphx/src/test/scala/org/apache/spark/graphx/util/GraphGeneratorsSuite.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   graphx/src/test/scala/org/apache/spark/graphx/util/GraphGeneratorsSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
    graphx/src/test/scala/org/apache/spark/graphx/EdgeRDDSuite.scala -> graphx/src/test/scala/org/apache/spark/graphx/LocalSparkContext.scala
    graphx/src/test/scala/org/apache/spark/graphx/GraphOpsSuite.scala -> graphx/src/test/scala/org/apache/spark/graphx/LocalSparkContext.scala

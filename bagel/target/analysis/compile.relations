@@ -24,10 +24,10 @@ products:
    bagel/src/main/scala/org/apache/spark/bagel/package.scala -> bagel/target/scala-2.10/classes/org/apache/spark/bagel/package$.class
    bagel/src/main/scala/org/apache/spark/bagel/package.scala -> bagel/target/scala-2.10/classes/org/apache/spark/bagel/package.class
 binary dependencies:
-   bagel/src/main/scala/org/apache/spark/bagel/Bagel.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   bagel/src/main/scala/org/apache/spark/bagel/Bagel.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    bagel/src/main/scala/org/apache/spark/bagel/Bagel.scala -> core/target/spark-core_2.10-1.6.1.jar
-   bagel/src/main/scala/org/apache/spark/bagel/Bagel.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   bagel/src/main/scala/org/apache/spark/bagel/package.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   bagel/src/main/scala/org/apache/spark/bagel/Bagel.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   bagel/src/main/scala/org/apache/spark/bagel/package.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
 external dependencies:
 class names:
