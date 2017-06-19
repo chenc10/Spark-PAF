@@ -7,105 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be57be91-c457-4c63-af1e-95cb8897ef02" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/core/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/core/target/scala-2.10/classes/org/apache/spark/sql/test/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/hive/target/analysis/test-compile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sql/hive/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/APPLICATION_COMPLETE" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/APPLICATION_COMPLETE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/SPARK_VERSION_1.2.0" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/SPARK_VERSION_1.2.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/APPLICATION_COMPLETE" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/APPLICATION_COMPLETE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/SPARK_VERSION_1.2.0" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/SPARK_VERSION_1.2.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/APPLICATION_COMPLETE" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/APPLICATION_COMPLETE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/SPARK_VERSION_1.2.0" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/SPARK_VERSION_1.2.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/APPLICATION_COMPLETE" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/APPLICATION_COMPLETE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/SPARK_VERSION_1.2.0" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/SPARK_VERSION_1.2.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/APPLICATION_COMPLETE" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/APPLICATION_COMPLETE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/SPARK_VERSION_1.2.0" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/SPARK_VERSION_1.2.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/core/target/scala-2.10/test-classes/dec-in-i32.parquet" afterPath="$PROJECT_DIR$/sql/core/target/scala-2.10/test-classes/dec-in-i32.parquet" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/core/target/scala-2.10/test-classes/dec-in-i64.parquet" afterPath="$PROJECT_DIR$/sql/core/target/scala-2.10/test-classes/dec-in-i64.parquet" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bagel/target/analysis/compile" afterPath="$PROJECT_DIR$/bagel/target/analysis/compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bagel/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/bagel/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bagel/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/bagel/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bagel/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/bagel/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bagel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/bagel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/analysis/compile" afterPath="$PROJECT_DIR$/core/target/analysis/compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/analysis/test-compile" afterPath="$PROJECT_DIR$/core/target/analysis/test-compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/core/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/core/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/ui/static/bootstrap.min.css" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/ui/static/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/EVENT_LOG_1" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981759269/EVENT_LOG_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/EVENT_LOG_1" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1422981780767/EVENT_LOG_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/EVENT_LOG_1" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1425081759269/EVENT_LOG_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/EVENT_LOG_1" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426533911241/EVENT_LOG_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/EVENT_LOG_1" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1426633911242/EVENT_LOG_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1430917381534" afterPath="$PROJECT_DIR$/core/target/scala-2.10/test-classes/spark-events/local-1430917381534" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphx/target/analysis/compile" afterPath="$PROJECT_DIR$/graphx/target/analysis/compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphx/target/analysis/test-compile" afterPath="$PROJECT_DIR$/graphx/target/analysis/test-compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphx/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/graphx/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphx/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/graphx/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphx/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/graphx/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphx/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/graphx/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launcher/target/analysis/compile" afterPath="$PROJECT_DIR$/launcher/target/analysis/compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launcher/target/analysis/test-compile" afterPath="$PROJECT_DIR$/launcher/target/analysis/test-compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launcher/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/launcher/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launcher/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/launcher/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launcher/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/launcher/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launcher/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/launcher/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launcher/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/launcher/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/analysis/compile" afterPath="$PROJECT_DIR$/network/common/target/analysis/compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/analysis/test-compile" afterPath="$PROJECT_DIR$/network/common/target/analysis/test-compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/network/common/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/network/common/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/network/common/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/network/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/network/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/analysis/compile" afterPath="$PROJECT_DIR$/network/shuffle/target/analysis/compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/analysis/test-compile" afterPath="$PROJECT_DIR$/network/shuffle/target/analysis/test-compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/network/shuffle/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/network/shuffle/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/network/shuffle/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/network/shuffle/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/network/shuffle/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/catalyst/target/analysis/compile" afterPath="$PROJECT_DIR$/sql/catalyst/target/analysis/compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/catalyst/target/analysis/test-compile" afterPath="$PROJECT_DIR$/sql/catalyst/target/analysis/test-compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/catalyst/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/sql/catalyst/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/catalyst/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/sql/catalyst/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/catalyst/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/sql/catalyst/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/catalyst/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/sql/catalyst/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/core/target/analysis/compile" afterPath="$PROJECT_DIR$/sql/core/target/analysis/compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/core/target/analysis/test-compile" afterPath="$PROJECT_DIR$/sql/core/target/analysis/test-compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/core/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/sql/core/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/core/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/sql/core/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/sql/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/sql/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streaming/target/analysis/compile" afterPath="$PROJECT_DIR$/streaming/target/analysis/compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streaming/target/analysis/test-compile" afterPath="$PROJECT_DIR$/streaming/target/analysis/test-compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streaming/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/streaming/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streaming/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/streaming/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streaming/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/streaming/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streaming/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/streaming/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streaming/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/streaming/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/target/analysis/compile" afterPath="$PROJECT_DIR$/tags/target/analysis/compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/tags/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/tags/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/tags/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/tags/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spark-parent_2.10-1.6.1-shaded.pom" afterPath="$PROJECT_DIR$/target/spark-parent_2.10-1.6.1-shaded.pom" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unsafe/target/analysis/compile" afterPath="$PROJECT_DIR$/unsafe/target/analysis/compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unsafe/target/analysis/test-compile" afterPath="$PROJECT_DIR$/unsafe/target/analysis/test-compile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unsafe/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/unsafe/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unsafe/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/unsafe/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unsafe/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="$PROJECT_DIR$/unsafe/target/maven-shared-archive-resources/META-INF/NOTICE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unsafe/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/unsafe/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unsafe/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/unsafe/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala" afterPath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala" afterPath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala" />
     </list>
     <ignored path="spark-parent_2.10.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -156,12 +61,10 @@
       <file leaf-file-name="TaskSchedulerImpl.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="512" column="2" lean-forward="false" selection-start-line="512" selection-start-column="2" selection-end-line="512" selection-end-column="2" />
+            <state relative-caret-position="1080">
+              <caret line="343" column="12" lean-forward="false" selection-start-line="343" selection-start-column="12" selection-end-line="343" selection-end-column="12" />
               <folding>
-                <marker date="1497703090000" expanded="true" signature="2506:21543" ph="{...}" />
-                <marker date="1497703090000" expanded="true" signature="20976:21539" ph="..." />
-                <marker date="1497703090000" expanded="true" signature="20989:21539" ph="(...)" />
+                <marker date="1497830867000" expanded="true" signature="2506:21481" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -170,11 +73,9 @@
       <file leaf-file-name="TaskSet.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSet.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,11 +83,12 @@
       <file leaf-file-name="Pool.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Pool.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1309">
-              <caret line="161" column="34" lean-forward="false" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
+            <state relative-caret-position="-2650">
+              <caret line="106" column="25" lean-forward="false" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
               <folding>
                 <element signature="e#838#908#0" expanded="true" />
-                <marker date="1497717171000" expanded="true" signature="11490:11494" ph="{...}" />
+                <marker date="1497830867000" expanded="true" signature="11490:11494" ph="{...}" />
+                <marker date="1497830867000" expanded="true" signature="12373:13415" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -195,18 +97,18 @@
       <file leaf-file-name="SchedulableBuilder.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="179" column="55" lean-forward="false" selection-start-line="179" selection-start-column="55" selection-end-line="179" selection-end-column="55" />
+            <state relative-caret-position="1024">
+              <caret line="182" column="13" lean-forward="false" selection-start-line="182" selection-start-column="13" selection-end-line="182" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocalLR.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LocalLR.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalLR.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            <state relative-caret-position="1125">
+              <caret line="90" column="40" lean-forward="false" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
               <folding>
                 <element signature="e#863#886#0" expanded="true" />
                 <marker date="1497717379000" expanded="true" signature="1825:1980" ph="{...}" />
@@ -216,21 +118,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskSetManager.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TaskSetManager.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-724">
-              <caret line="118" column="26" lean-forward="false" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
+            <state relative-caret-position="585">
+              <caret line="732" column="29" lean-forward="false" selection-start-line="732" selection-start-column="29" selection-end-line="732" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Schedulable.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Schedulable.scala">
+      <file leaf-file-name="SparkContext.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/SparkContext.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="371">
+              <caret line="1691" column="14" lean-forward="false" selection-start-line="1691" selection-start-column="14" selection-end-line="1691" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskScheduler.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskScheduler.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="49" column="15" lean-forward="false" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalBackend.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/local/LocalBackend.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="83" column="34" lean-forward="false" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ordered.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar!/scala/math/Ordered.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -253,7 +185,6 @@
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Stage.scala" />
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala" />
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskScheduler.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSet.scala" />
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala" />
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/api/java/JavaSparkContext.scala" />
         <option value="$PROJECT_DIR$/dist/python/pyspark/context.py" />
@@ -263,12 +194,13 @@
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulingMode.scala" />
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulingAlgorithm.scala" />
         <option value="$PROJECT_DIR$/core/src/test/scala/org/apache/spark/scheduler/DAGSchedulerSuite.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala" />
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Schedulable.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala" />
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala" />
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Pool.scala" />
         <option value="$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalLR.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSet.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala" />
+        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala" />
       </list>
     </option>
   </component>
@@ -309,8 +241,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="-1080" />
+    <option name="y" value="-1120" />
+    <option name="width" value="1080" />
+    <option name="height" value="1920" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -331,8 +265,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -813,6 +745,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocalBackend.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-parent_2.10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark-1.6.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cluster" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -841,6 +815,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1175,44 +1151,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-1080" y="-1120" width="1080" height="1920" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294956" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32102272" sideWeight="0.49614644" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294956" sideWeight="0.50385356" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5213068" sideWeight="0.49421966" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8536932" sideWeight="0.49614644" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1736672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36647728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294956" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3224432" sideWeight="0.49614644" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32785088" sideWeight="0.50578034" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60855263" sideWeight="0.49421966" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60795456" sideWeight="0.49421966" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30924857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26878613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14144737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294956" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1288,13 +1251,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Stage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/external/flume-sink/src/main/scala/org/apache/spark/streaming/flume/sink/SparkAvroCallbackHandler.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1307,9 +1263,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1497703090000" expanded="true" signature="2506:21543" ph="{...}" />
-            <marker date="1497703090000" expanded="true" signature="20976:21539" ph="..." />
-            <marker date="1497703090000" expanded="true" signature="20989:21539" ph="(...)" />
+            <marker date="1497830867000" expanded="true" signature="2506:21481" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1333,9 +1287,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,13 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/local/LocalBackend.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1513,14 +1458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/SparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="1698" column="31" lean-forward="false" selection-start-line="1698" selection-start-column="31" selection-end-line="1698" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulingMode.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1535,10 +1472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="85" column="3" lean-forward="false" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#863#888#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1546,7 +1479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1554,7 +1486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1574,27 +1505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskLocality.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalPi.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="61" column="25" lean-forward="false" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskScheduler.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1616,36 +1530,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Schedulable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="225">
           <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-724">
-          <caret line="118" column="26" lean-forward="false" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="179" column="55" lean-forward="false" selection-start-line="179" selection-start-column="55" selection-end-line="179" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="512" column="2" lean-forward="false" selection-start-line="512" selection-start-column="2" selection-end-line="512" selection-end-column="2" />
           <folding>
-            <marker date="1497703090000" expanded="true" signature="2506:21543" ph="{...}" />
-            <marker date="1497703090000" expanded="true" signature="20976:21539" ph="..." />
-            <marker date="1497703090000" expanded="true" signature="20989:21539" ph="(...)" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#838#887#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1654,40 +1543,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskLocality.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSet.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar!/scala/math/Ordered.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/local/LocalBackend.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="83" column="34" lean-forward="false" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Pool.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1309">
-          <caret line="161" column="34" lean-forward="false" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
+        <state relative-caret-position="-2650">
+          <caret line="106" column="25" lean-forward="false" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
           <folding>
             <element signature="e#838#908#0" expanded="true" />
-            <marker date="1497717171000" expanded="true" signature="11490:11494" ph="{...}" />
+            <marker date="1497830867000" expanded="true" signature="11490:11494" ph="{...}" />
+            <marker date="1497830867000" expanded="true" signature="12373:13415" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/src/main/scala/org/apache/spark/examples/LocalLR.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        <state relative-caret-position="1125">
+          <caret line="90" column="40" lean-forward="false" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
           <folding>
             <element signature="e#863#886#0" expanded="true" />
             <marker date="1497717379000" expanded="true" signature="1825:1980" ph="{...}" />
             <marker date="1497717379000" expanded="true" signature="3139:3565" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulableBuilder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="182" column="13" lean-forward="false" selection-start-line="182" selection-start-column="13" selection-end-line="182" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="343" column="12" lean-forward="false" selection-start-line="343" selection-start-column="12" selection-end-line="343" selection-end-column="12" />
+          <folding>
+            <marker date="1497830867000" expanded="true" signature="2506:21481" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="1691" column="14" lean-forward="false" selection-start-line="1691" selection-start-column="14" selection-end-line="1691" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskScheduler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="49" column="15" lean-forward="false" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="732" column="29" lean-forward="false" selection-start-line="732" selection-start-column="29" selection-end-line="732" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,11 @@
-/target/*
+/target/
 .oldgit
 *.class
 *.jar
 *_Store
 *.log
+*xml
+!pom.xml
+*png
+*
+!*.scala

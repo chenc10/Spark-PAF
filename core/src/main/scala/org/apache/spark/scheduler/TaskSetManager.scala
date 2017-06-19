@@ -61,6 +61,7 @@ private[spark] class TaskSetManager(
   // add by cc
   var targetAlloc: Double = 0.0
   //
+  var isFirst = 0
   val isFinal = taskSet.isFinal
   val jobId = taskSet.jobId
   val priority = taskSet.priority
@@ -470,8 +471,9 @@ private[spark] class TaskSetManager(
         }
       }
 
-      if (stageId == 0 && isolationType == 0){
+      if (isFirst == 1 && isolationType == 0){
         allowedLocality = TaskLocality.ANY
+        logInfo("##### set locality of first stage to ANY")
       }
 
       dequeueTask(execId, host, allowedLocality) match {
@@ -673,6 +675,7 @@ private[spark] class TaskSetManager(
     } else {
       if (isolationType == 0) {
         slotReserveDeadline = Long.MaxValue
+        logInfo("##### <ssr> make reservation - stageId: " + stageId)
       } else {
         if (isolationType == 2) {
           slotReserveDeadline = 0

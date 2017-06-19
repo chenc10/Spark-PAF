@@ -146,6 +146,7 @@ private[spark] class FairSchedulableBuilder(val rootPool: Pool, conf: SparkConf)
         rootPool.addSchedulable(parentPool)
         logInfo("Created pool %s, schedulingMode: %s, minShare: %d, weight: %d".format(
           poolName, DEFAULT_SCHEDULING_MODE, DEFAULT_MINIMUM_SHARE, DEFAULT_WEIGHT))
+        manager.asInstanceOf[TaskSetManager].isFirst = 1
       }
     }
     parentPool.addSchedulable(manager)
@@ -179,6 +180,7 @@ private[spark] class PAFSchedulableBuilder(val rootPool: Pool)
       logInfo("##### ##### PoolName: %s".format(poolName) + "; curveString:" +
         curveString + "; nDemand: " + parentPool.nDemand)
       rootPool.addSchedulable(parentPool)
+      manager.asInstanceOf[TaskSetManager].isFirst = 1
     }
     parentPool.addSchedulable(manager)
   }

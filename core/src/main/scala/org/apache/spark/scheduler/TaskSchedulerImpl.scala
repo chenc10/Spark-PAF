@@ -552,6 +552,7 @@ private[spark] class TaskSchedulerImpl(
   // add by cc
   override def stopReservation(threadId: Int): Unit = {
     waivedThreadIdList += threadId
+    logInf("##### <ssr> stop reserve slots for app: " + threadId)
     backend.reviveOffers()
   }
 
