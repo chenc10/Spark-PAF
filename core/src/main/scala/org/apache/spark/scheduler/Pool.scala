@@ -336,7 +336,7 @@ private[spark] class Pool(
     // add by cc
     // if current application finishes, then re_calculate the target share
     if (parent != null && parent.schedulingMode == SchedulingMode.PAF) {
-      parent.removeSchedulable(this)
+//      parent.removeSchedulable(this)
       parent.getTargetShare()
     }
   }
