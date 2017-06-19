@@ -274,7 +274,8 @@ private[spark] class TaskSchedulerImpl(
             logInfo("##### ##### the new taskSet is from the same user: %d"
               .format(taskSet.threadId))
           } else {
-              if (taskSet.priority < executorIdToTaskSetManager(execId).priority) {
+//              if (taskSet.priority < executorIdToTaskSetManager(execId).priority) {
+              if (handledJobList.contains(executorIdToTaskSetManager(execId).jobId)) {
                 logInfo("##### ##### the new taskSet has a higher priority")
               } else {
                 if (waivedThreadIdList.contains(executorIdToTaskSetManager(execId).threadId)){
@@ -285,13 +286,14 @@ private[spark] class TaskSchedulerImpl(
               }
           }
       }
-      */
+  */
       var shouldAllocate = (!executorIdToTaskSetManager.contains(execId)
         // this executor is a new executor
-//        || taskSet.threadId == executorIdToTaskSetManager(execId).threadId
+        || taskSet.threadId == executorIdToTaskSetManager(execId).threadId
         // if the new taskSet is from the same user
 //        || taskSet.priority < executorIdToTaskSetManager(execId).priority
-        || !handledJobList.contains(executorIdToTaskSetManager(execId).jobId)
+//        why we need the following ?
+//        || !handledJobList.contains(executorIdToTaskSetManager(execId).jobId)
         // if the new taskSet has a higher priority
         // then current slot can be assigned out
         || waivedThreadIdList.contains(executorIdToTaskSetManager(execId).threadId))

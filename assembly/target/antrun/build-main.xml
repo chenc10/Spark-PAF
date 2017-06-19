@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main">
-  <delete dir="/root/Spark-PAF/assembly/../python/lib/pyspark.zip"/>
-  <zip destfile="/root/Spark-PAF/assembly/../python/lib/pyspark.zip">
-    <fileset dir="/root/Spark-PAF/assembly/../python/" includes="pyspark/**/*"/>
+  <delete dir="/dev/shm/Spark-PAF/assembly/../python/lib/pyspark.zip"/>
+  <zip destfile="/dev/shm/Spark-PAF/assembly/../python/lib/pyspark.zip">
+    <fileset dir="/dev/shm/Spark-PAF/assembly/../python/" includes="pyspark/**/*"/>
   </zip>
 </target>
 </project>
