@@ -266,7 +266,6 @@ private[spark] class TaskSchedulerImpl(
     for (i <- 0 until shuffledOffers.size) {
       val execId = shuffledOffers(i).executorId
       val host = shuffledOffers(i).host
-      /*
       if (!executorIdToTaskSetManager.contains(execId)){
         logInfo("##### ##### ##### new executor! - %s".format(execId))
       } else {
@@ -286,7 +285,6 @@ private[spark] class TaskSchedulerImpl(
               }
           }
       }
-  */
       var shouldAllocate = (!executorIdToTaskSetManager.contains(execId)
         // this executor is a new executor
         || taskSet.threadId == executorIdToTaskSetManager(execId).threadId

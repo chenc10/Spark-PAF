@@ -133,6 +133,7 @@ private[spark] class FairSchedulableBuilder(val rootPool: Pool, conf: SparkConf)
   }
 
   override def addTaskSetManager(manager: Schedulable, properties: Properties) {
+    val weight = properties.getProperty("job.Weight", "1").toInt
     var poolName = DEFAULT_POOL_NAME
     var parentPool = rootPool.getSchedulableByName(poolName)
     if (properties != null) {
@@ -142,7 +143,7 @@ private[spark] class FairSchedulableBuilder(val rootPool: Pool, conf: SparkConf)
         // we will create a new pool that user has configured in app
         // instead of being defined in xml file
         parentPool = new Pool(poolName, DEFAULT_SCHEDULING_MODE,
-          DEFAULT_MINIMUM_SHARE, DEFAULT_WEIGHT)
+          DEFAULT_MINIMUM_SHARE, weight)
         rootPool.addSchedulable(parentPool)
         logInfo("Created pool %s, schedulingMode: %s, minShare: %d, weight: %d".format(
           poolName, DEFAULT_SCHEDULING_MODE, DEFAULT_MINIMUM_SHARE, DEFAULT_WEIGHT))
