@@ -1,4 +1,113 @@
 products:
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$1.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$10.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$11.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$12.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$13.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$14.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$15.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$16.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$17.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$18.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$19.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$2.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$20.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$21.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$22.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$23.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$24.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$25.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$26.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$27.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$28.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$29.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$3.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$30.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$31.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$32.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$33.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$34.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$35.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$36.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$37.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$38.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$39.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$4.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$40.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$41.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$42.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$43.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$44.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$45.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$46.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$47.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$48.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$49.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$5.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$50.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$51.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$52.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$53.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$54.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$55.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$56.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$57.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$58.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$59.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$6.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$60.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$61.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$7.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$8.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$9.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$AddInts.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$BuggyMapFunction.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$Class1.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$Class2.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$DoubleComparator.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite$SomeCustomClass.class
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaAPISuite.class
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaJdbcRDDSuite$1.class
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaJdbcRDDSuite$2.class
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaJdbcRDDSuite$3.class
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/JavaJdbcRDDSuite.class
+   core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/launcher/SparkLauncherSuite$SparkLauncherTestApp.class
+   core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/launcher/SparkLauncherSuite.class
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/memory/TaskMemoryManagerSuite.class
+   core/src/test/java/org/apache/spark/memory/TestMemoryConsumer.java -> core/target/scala-2.10/test-classes/org/apache/spark/memory/TestMemoryConsumer.class
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> core/target/scala-2.10/test-classes/org/apache/spark/serializer/TestJavaSerializerImpl$DeserializationStreamImpl.class
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> core/target/scala-2.10/test-classes/org/apache/spark/serializer/TestJavaSerializerImpl$SerializationStreamImpl.class
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> core/target/scala-2.10/test-classes/org/apache/spark/serializer/TestJavaSerializerImpl$SerializerInstanceImpl.class
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> core/target/scala-2.10/test-classes/org/apache/spark/serializer/TestJavaSerializerImpl.class
+   core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.class
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.class
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite$1.class
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite$1BadRecords.class
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite$2.class
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite$3.class
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite$4.class
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite$5.class
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite$CompressStream.class
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite$PandaException.class
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.class
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite$1.class
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite$2.class
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite$CompressStream.class
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.class
+   core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOffHeapSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/unsafe/map/BytesToBytesMapOffHeapSuite.class
+   core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOnHeapSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/unsafe/map/BytesToBytesMapOnHeapSuite.class
+   core/src/test/java/org/apache/spark/util/collection/TestTimSort.java -> core/target/scala-2.10/test-classes/org/apache/spark/util/collection/TestTimSort.class
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite$1.class
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite$2.class
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite$3.class
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite$4.class
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite$CompressStream.class
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.class
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite$1.class
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite$2.class
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> core/target/scala-2.10/test-classes/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.class
+   core/src/test/java/test/org/apache/spark/JavaTaskCompletionListenerImpl.java -> core/target/scala-2.10/test-classes/test/org/apache/spark/JavaTaskCompletionListenerImpl.class
+   core/src/test/java/test/org/apache/spark/JavaTaskContextCompileCheck.java -> core/target/scala-2.10/test-classes/test/org/apache/spark/JavaTaskContextCompileCheck.class
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> core/target/scala-2.10/test-classes/org/apache/spark/AccumulatorSuite$$anon$1.class
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> core/target/scala-2.10/test-classes/org/apache/spark/AccumulatorSuite$$anonfun$1$$anonfun$apply$mcV$sp$1.class
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> core/target/scala-2.10/test-classes/org/apache/spark/AccumulatorSuite$$anonfun$1$$anonfun$apply$mcV$sp$2.class
@@ -4795,6 +4904,62 @@ products:
    core/src/test/scala/org/apache/sparktest/ImplicitSuite.scala -> core/target/scala-2.10/test-classes/org/apache/sparktest/ImplicitSuite$$anonfun$testWritableWritableConverter$2.class
    core/src/test/scala/org/apache/sparktest/ImplicitSuite.scala -> core/target/scala-2.10/test-classes/org/apache/sparktest/ImplicitSuite.class
 binary dependencies:
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> /root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java -> /root/.m2/repository/org/apache/spark/spark-launcher_2.10/1.6.1/spark-launcher_2.10-1.6.1.jar
+   core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java -> /root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar
+   core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java -> /root/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+   core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> /root/.m2/repository/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/memory/TestMemoryConsumer.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java -> /root/.m2/repository/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> /root/.m2/repository/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> /root/.m2/repository/org/apache/spark/spark-network-common_2.10/1.6.1/spark-network-common_2.10-1.6.1.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> /root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> /root/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> /root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> /root/.m2/repository/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> /root/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> /root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOffHeapSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOnHeapSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/util/collection/TestTimSort.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> /root/.m2/repository/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> /root/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> /root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> /root/.m2/repository/junit/junit/4.11/junit-4.11.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> /root/.m2/repository/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> /root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> /root/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> /root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/test/org/apache/spark/JavaTaskCompletionListenerImpl.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   core/src/test/java/test/org/apache/spark/JavaTaskContextCompileCheck.java -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
@@ -4825,7 +4990,6 @@ binary dependencies:
    core/src/test/scala/org/apache/spark/ExternalShuffleServiceSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/ExternalShuffleServiceSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/ExternalShuffleServiceSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
-   core/src/test/scala/org/apache/spark/FailureSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/memory/TaskMemoryManager.class
    core/src/test/scala/org/apache/spark/FailureSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/FailureSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/FailureSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
@@ -4885,7 +5049,6 @@ binary dependencies:
    core/src/test/scala/org/apache/spark/ShuffleNettySuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/ShuffleNettySuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/ShuffleNettySuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
-   core/src/test/scala/org/apache/spark/ShuffleSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/memory/TaskMemoryManager.class
    core/src/test/scala/org/apache/spark/ShuffleSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/ShuffleSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/ShuffleSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
@@ -4913,9 +5076,6 @@ binary dependencies:
    core/src/test/scala/org/apache/spark/SparkFunSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/SparkFunSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/SparkFunSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
-   core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/JobExecutionStatus.class
-   core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/SparkJobInfo.class
-   core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/SparkStageInfo.class
    core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
@@ -5071,24 +5231,18 @@ binary dependencies:
    core/src/test/scala/org/apache/spark/launcher/LauncherBackendSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/launcher/LauncherBackendSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/launcher/LauncherBackendSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
-   core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/memory/MemoryMode.class
-   core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/memory/TaskMemoryManager.class
    core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> /root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
    core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
-   core/src/test/scala/org/apache/spark/memory/MemoryTestingUtils.scala -> core/target/scala-2.10/classes/org/apache/spark/memory/TaskMemoryManager.class
    core/src/test/scala/org/apache/spark/memory/MemoryTestingUtils.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/memory/MemoryTestingUtils.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
-   core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/memory/MemoryMode.class
    core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> /root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
    core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
-   core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala -> core/target/scala-2.10/classes/org/apache/spark/memory/MemoryMode.class
    core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
-   core/src/test/scala/org/apache/spark/memory/UnifiedMemoryManagerSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/memory/MemoryMode.class
    core/src/test/scala/org/apache/spark/memory/UnifiedMemoryManagerSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/memory/UnifiedMemoryManagerSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/memory/UnifiedMemoryManagerSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
@@ -5321,7 +5475,6 @@ binary dependencies:
    core/src/test/scala/org/apache/spark/shuffle/ShuffleDependencySuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/shuffle/ShuffleDependencySuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/shuffle/ShuffleDependencySuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
-   core/src/test/scala/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriterSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriter.class
    core/src/test/scala/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriterSuite.scala -> /root/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar
    core/src/test/scala/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriterSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriterSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
@@ -5385,8 +5538,6 @@ binary dependencies:
    core/src/test/scala/org/apache/spark/ui/StagePageSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/ui/StagePageSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/ui/StagePageSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
-   core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/api/java/StorageLevels.class
-   core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/status/api/v1/StageStatus.class
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> /root/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.14/htmlunit-2.14.jar
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> /root/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> /root/.m2/repository/org/json4s/json4s-ast_2.10/3.2.10/json4s-ast_2.10-3.2.10.jar
@@ -5518,7 +5669,6 @@ binary dependencies:
    core/src/test/scala/org/apache/spark/util/collection/SorterSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/spark/util/collection/SorterSuite.scala -> /root/.m2/repository/org/scalatest/scalatest_2.10/2.2.1/scalatest_2.10-2.2.1.jar
    core/src/test/scala/org/apache/spark/util/collection/SorterSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
-   core/src/test/scala/org/apache/spark/util/collection/unsafe/sort/PrefixComparatorsSuite.scala -> core/target/scala-2.10/classes/org/apache/spark/util/collection/unsafe/sort/PrefixComparators.class
    core/src/test/scala/org/apache/spark/util/collection/unsafe/sort/PrefixComparatorsSuite.scala -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
    core/src/test/scala/org/apache/spark/util/collection/unsafe/sort/PrefixComparatorsSuite.scala -> /root/.m2/repository/org/apache/spark/spark-unsafe_2.10/1.6.1/spark-unsafe_2.10-1.6.1.jar
    core/src/test/scala/org/apache/spark/util/collection/unsafe/sort/PrefixComparatorsSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
@@ -5544,6 +5694,36 @@ binary dependencies:
    core/src/test/scala/org/apache/sparktest/ImplicitSuite.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    core/src/test/scala/org/apache/sparktest/ImplicitSuite.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> core/src/test/java/org/apache/spark/JavaAPISuite.java
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java
+   core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java -> core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> core/src/test/java/org/apache/spark/memory/TestMemoryConsumer.java
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala
+   core/src/test/java/org/apache/spark/memory/TestMemoryConsumer.java -> core/src/test/java/org/apache/spark/memory/TestMemoryConsumer.java
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java
+   core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java -> core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java
+   core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java -> core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> core/src/test/java/org/apache/spark/memory/TestMemoryConsumer.java
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala
+   core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOffHeapSuite.java -> core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java
+   core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOffHeapSuite.java -> core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOffHeapSuite.java
+   core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOnHeapSuite.java -> core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java
+   core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOnHeapSuite.java -> core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOnHeapSuite.java
+   core/src/test/java/org/apache/spark/util/collection/TestTimSort.java -> core/src/test/java/org/apache/spark/util/collection/TestTimSort.java
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> core/src/test/java/org/apache/spark/memory/TestMemoryConsumer.java
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala
+   core/src/test/java/test/org/apache/spark/JavaTaskCompletionListenerImpl.java -> core/src/test/java/test/org/apache/spark/JavaTaskCompletionListenerImpl.java
+   core/src/test/java/test/org/apache/spark/JavaTaskContextCompileCheck.java -> core/src/test/java/test/org/apache/spark/JavaTaskCompletionListenerImpl.java
+   core/src/test/java/test/org/apache/spark/JavaTaskContextCompileCheck.java -> core/src/test/java/test/org/apache/spark/JavaTaskContextCompileCheck.java
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> core/src/test/scala/org/apache/spark/LocalSparkContext.scala
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> core/src/test/scala/org/apache/spark/SparkFunSuite.scala
    core/src/test/scala/org/apache/spark/CacheManagerSuite.scala -> core/src/test/scala/org/apache/spark/LocalSparkContext.scala
@@ -5852,6 +6032,124 @@ source dependencies:
    core/src/test/scala/org/apache/spark/util/random/SamplingUtilsSuite.scala -> core/src/test/scala/org/apache/spark/SparkFunSuite.scala
    core/src/test/scala/org/apache/spark/util/random/XORShiftRandomSuite.scala -> core/src/test/scala/org/apache/spark/SparkFunSuite.scala
 external dependencies:
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.Accumulator
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.AccumulatorParam
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.Partition
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.Partitioner
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.SparkConf
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.TaskContext$
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.JavaDoubleRDD
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.JavaFutureAction
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.JavaPairRDD
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.JavaRDD
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.JavaSparkContext
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.function.DoubleFlatMapFunction
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.function.DoubleFunction
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.function.FlatMapFunction
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.function.FlatMapFunction2
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.function.Function
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.function.Function2
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.function.PairFlatMapFunction
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.function.PairFunction
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.api.java.function.VoidFunction
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.input.PortableDataStream
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.partial.BoundedDouble
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.partial.PartialResult
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.rdd.RDD
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.serializer.KryoSerializer
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.storage.StorageLevel
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.util.StatCounter
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> org.apache.spark.api.java.JavaRDD
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> org.apache.spark.api.java.JavaSparkContext
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> org.apache.spark.api.java.function.Function
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> org.apache.spark.api.java.function.Function2
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> org.apache.spark.rdd.JdbcRDD
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> org.apache.spark.rdd.JdbcRDD$ConnectionFactory
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> org.apache.spark.SparkConf
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> org.apache.spark.memory.MemoryMode
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> org.apache.spark.memory.StaticMemoryManager
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> org.apache.spark.memory.TaskMemoryManager
+   core/src/test/java/org/apache/spark/memory/TestMemoryConsumer.java -> org.apache.spark.memory.MemoryConsumer
+   core/src/test/java/org/apache/spark/memory/TestMemoryConsumer.java -> org.apache.spark.memory.TaskMemoryManager
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> org.apache.spark.serializer.DeserializationStream
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> org.apache.spark.serializer.SerializationStream
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> org.apache.spark.serializer.Serializer
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> org.apache.spark.serializer.SerializerInstance
+   core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java -> org.apache.spark.SparkConf
+   core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java -> org.apache.spark.memory.TaskMemoryManager
+   core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java -> org.apache.spark.shuffle.sort.PackedRecordPointer
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> org.apache.spark.HashPartitioner
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> org.apache.spark.SparkConf
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> org.apache.spark.memory.TaskMemoryManager
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> org.apache.spark.shuffle.sort.PackedRecordPointer
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> org.apache.spark.shuffle.sort.ShuffleInMemorySorter
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> org.apache.spark.shuffle.sort.ShuffleInMemorySorter$ShuffleSorterIterator
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.HashPartitioner
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.ShuffleDependency
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.SparkConf
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.TaskContext
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.executor.ShuffleWriteMetrics
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.executor.TaskMetrics
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.io.CompressionCodec
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.io.CompressionCodec$
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.io.LZ4CompressionCodec
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.io.LZFCompressionCodec
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.io.SnappyCompressionCodec
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.memory.TaskMemoryManager
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.serializer.DeserializationStream
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.serializer.KryoSerializer
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.serializer.Serializer
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.serializer.SerializerInstance
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.IndexShuffleBlockResolver
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.sort.SerializedShuffleHandle
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.sort.UnsafeShuffleWriter
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.storage.BlockId
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.storage.BlockManager
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.storage.DiskBlockManager
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.storage.DiskBlockObjectWriter
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.storage.TempShuffleBlockId
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.util.Utils
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.SparkConf
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.executor.ShuffleWriteMetrics
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.memory.TaskMemoryManager
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.serializer.SerializerInstance
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.storage.BlockId
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.storage.BlockManager
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.storage.DiskBlockManager
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.storage.DiskBlockObjectWriter
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.storage.TempLocalBlockId
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.unsafe.map.BytesToBytesMap
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.unsafe.map.BytesToBytesMap$Location
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.unsafe.map.BytesToBytesMap$MapIterator
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.util.Utils
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.SparkConf
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.TaskContext
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.executor.ShuffleWriteMetrics
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.executor.TaskMetrics
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.memory.TaskMemoryManager
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.serializer.SerializerInstance
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.storage.BlockId
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.storage.BlockManager
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.storage.DiskBlockManager
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.storage.DiskBlockObjectWriter
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.storage.TempLocalBlockId
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.Utils
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.PrefixComparator
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.RecordComparator
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorter
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorter$SpillableIterator
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeSorterIterator
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> org.apache.spark.HashPartitioner
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> org.apache.spark.SparkConf
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> org.apache.spark.memory.TaskMemoryManager
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.PrefixComparator
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.RecordComparator
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeInMemorySorter
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeInMemorySorter$SortedIterator
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeSorterIterator
+   core/src/test/java/test/org/apache/spark/JavaTaskCompletionListenerImpl.java -> org.apache.spark.TaskContext
+   core/src/test/java/test/org/apache/spark/JavaTaskCompletionListenerImpl.java -> org.apache.spark.util.TaskCompletionListener
+   core/src/test/java/test/org/apache/spark/JavaTaskContextCompileCheck.java -> org.apache.spark.TaskContext
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> org.apache.spark.Accumulable
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> org.apache.spark.AccumulableParam
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> org.apache.spark.Accumulator
@@ -6015,6 +6313,7 @@ external dependencies:
    core/src/test/scala/org/apache/spark/FailureSuite.scala -> org.apache.spark.SparkException
    core/src/test/scala/org/apache/spark/FailureSuite.scala -> org.apache.spark.TaskContext
    core/src/test/scala/org/apache/spark/FailureSuite.scala -> org.apache.spark.TaskContext$
+   core/src/test/scala/org/apache/spark/FailureSuite.scala -> org.apache.spark.memory.TaskMemoryManager
    core/src/test/scala/org/apache/spark/FailureSuite.scala -> org.apache.spark.rdd.PairRDDFunctions
    core/src/test/scala/org/apache/spark/FailureSuite.scala -> org.apache.spark.rdd.RDD
    core/src/test/scala/org/apache/spark/FailureSuite.scala -> org.apache.spark.rdd.RDD$
@@ -6154,6 +6453,7 @@ external dependencies:
    core/src/test/scala/org/apache/spark/ShuffleSuite.scala -> org.apache.spark.executor.ShuffleReadMetrics
    core/src/test/scala/org/apache/spark/ShuffleSuite.scala -> org.apache.spark.executor.ShuffleWriteMetrics
    core/src/test/scala/org/apache/spark/ShuffleSuite.scala -> org.apache.spark.executor.TaskMetrics
+   core/src/test/scala/org/apache/spark/ShuffleSuite.scala -> org.apache.spark.memory.TaskMemoryManager
    core/src/test/scala/org/apache/spark/ShuffleSuite.scala -> org.apache.spark.rdd.CoGroupedRDD
    core/src/test/scala/org/apache/spark/ShuffleSuite.scala -> org.apache.spark.rdd.OrderedRDDFunctions
    core/src/test/scala/org/apache/spark/ShuffleSuite.scala -> org.apache.spark.rdd.PairRDDFunctions
@@ -6232,9 +6532,12 @@ external dependencies:
    core/src/test/scala/org/apache/spark/SparkContextSuite.scala -> org.apache.spark.util.Utils$
    core/src/test/scala/org/apache/spark/SparkFunSuite.scala -> org.apache.spark.Logging
    core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> org.apache.spark.FutureAction
+   core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> org.apache.spark.JobExecutionStatus
    core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> org.apache.spark.Logging
    core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> org.apache.spark.SparkConf
    core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> org.apache.spark.SparkContext
+   core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> org.apache.spark.SparkJobInfo
+   core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> org.apache.spark.SparkStageInfo
    core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> org.apache.spark.SparkStatusTracker
    core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> org.apache.spark.rdd.AsyncRDDActions
    core/src/test/scala/org/apache/spark/StatusTrackerSuite.scala -> org.apache.spark.rdd.RDD
@@ -6581,6 +6884,8 @@ external dependencies:
    core/src/test/scala/org/apache/spark/launcher/LauncherBackendSuite.scala -> org.apache.spark.rdd.RDD
    core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> org.apache.spark.Logging
    core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> org.apache.spark.memory.MemoryManager
+   core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> org.apache.spark.memory.MemoryMode
+   core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> org.apache.spark.memory.TaskMemoryManager
    core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> org.apache.spark.storage.BlockId
    core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> org.apache.spark.storage.BlockStatus
    core/src/test/scala/org/apache/spark/memory/MemoryManagerSuite.scala -> org.apache.spark.storage.BlockStatus$
@@ -6589,20 +6894,24 @@ external dependencies:
    core/src/test/scala/org/apache/spark/memory/MemoryTestingUtils.scala -> org.apache.spark.SparkEnv
    core/src/test/scala/org/apache/spark/memory/MemoryTestingUtils.scala -> org.apache.spark.TaskContext
    core/src/test/scala/org/apache/spark/memory/MemoryTestingUtils.scala -> org.apache.spark.TaskContextImpl
+   core/src/test/scala/org/apache/spark/memory/MemoryTestingUtils.scala -> org.apache.spark.memory.TaskMemoryManager
    core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> org.apache.spark.Logging
    core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> org.apache.spark.SparkConf
    core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> org.apache.spark.memory.MemoryManager
+   core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> org.apache.spark.memory.MemoryMode
    core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> org.apache.spark.memory.StaticMemoryManager
    core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> org.apache.spark.storage.MemoryStore
    core/src/test/scala/org/apache/spark/memory/StaticMemoryManagerSuite.scala -> org.apache.spark.storage.TestBlockId$
    core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala -> org.apache.spark.Logging
    core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala -> org.apache.spark.SparkConf
    core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala -> org.apache.spark.memory.MemoryManager
+   core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala -> org.apache.spark.memory.MemoryMode
    core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala -> org.apache.spark.storage.BlockId
    core/src/test/scala/org/apache/spark/memory/TestMemoryManager.scala -> org.apache.spark.storage.BlockStatus
    core/src/test/scala/org/apache/spark/memory/UnifiedMemoryManagerSuite.scala -> org.apache.spark.Logging
    core/src/test/scala/org/apache/spark/memory/UnifiedMemoryManagerSuite.scala -> org.apache.spark.SparkConf
    core/src/test/scala/org/apache/spark/memory/UnifiedMemoryManagerSuite.scala -> org.apache.spark.memory.MemoryManager
+   core/src/test/scala/org/apache/spark/memory/UnifiedMemoryManagerSuite.scala -> org.apache.spark.memory.MemoryMode
    core/src/test/scala/org/apache/spark/memory/UnifiedMemoryManagerSuite.scala -> org.apache.spark.memory.UnifiedMemoryManager
    core/src/test/scala/org/apache/spark/memory/UnifiedMemoryManagerSuite.scala -> org.apache.spark.memory.UnifiedMemoryManager$
    core/src/test/scala/org/apache/spark/memory/UnifiedMemoryManagerSuite.scala -> org.apache.spark.storage.MemoryStore
@@ -7285,6 +7594,7 @@ external dependencies:
    core/src/test/scala/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriterSuite.scala -> org.apache.spark.serializer.SerializerInstance
    core/src/test/scala/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriterSuite.scala -> org.apache.spark.shuffle.IndexShuffleBlockResolver
    core/src/test/scala/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriterSuite.scala -> org.apache.spark.shuffle.sort.BypassMergeSortShuffleHandle
+   core/src/test/scala/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriterSuite.scala -> org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter
    core/src/test/scala/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriterSuite.scala -> org.apache.spark.storage.BlockId
    core/src/test/scala/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriterSuite.scala -> org.apache.spark.storage.BlockManager
    core/src/test/scala/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriterSuite.scala -> org.apache.spark.storage.DiskBlockManager
@@ -7499,12 +7809,14 @@ external dependencies:
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.SparkException
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.TaskContext
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.TaskContext$
+   core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.api.java.StorageLevels
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.rdd.AsyncRDDActions
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.rdd.RDD
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.rdd.RDD$
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.shuffle.FetchFailedException
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.shuffle.ShuffleHandle
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.status.api.v1.JacksonMessageWriter$
+   core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.status.api.v1.StageStatus
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.storage.BlockManager
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.storage.StorageLevel
    core/src/test/scala/org/apache/spark/ui/UISeleniumSuite.scala -> org.apache.spark.ui.SparkUI
@@ -7812,6 +8124,7 @@ external dependencies:
    core/src/test/scala/org/apache/spark/util/collection/SorterSuite.scala -> org.apache.spark.util.collection.Sorter
    core/src/test/scala/org/apache/spark/util/collection/SorterSuite.scala -> org.apache.spark.util.random.XORShiftRandom
    core/src/test/scala/org/apache/spark/util/collection/unsafe/sort/PrefixComparatorsSuite.scala -> org.apache.spark.Logging
+   core/src/test/scala/org/apache/spark/util/collection/unsafe/sort/PrefixComparatorsSuite.scala -> org.apache.spark.util.collection.unsafe.sort.PrefixComparators
    core/src/test/scala/org/apache/spark/util/io/ByteArrayChunkOutputStreamSuite.scala -> org.apache.spark.Logging
    core/src/test/scala/org/apache/spark/util/io/ByteArrayChunkOutputStreamSuite.scala -> org.apache.spark.util.io.ByteArrayChunkOutputStream
    core/src/test/scala/org/apache/spark/util/random/RandomSamplerSuite.scala -> org.apache.spark.Logging
@@ -7839,6 +8152,115 @@ external dependencies:
    core/src/test/scala/org/apache/sparktest/ImplicitSuite.scala -> org.apache.spark.rdd.RDD$
    core/src/test/scala/org/apache/sparktest/ImplicitSuite.scala -> org.apache.spark.rdd.SequenceFileRDDFunctions
 class names:
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$1
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$10
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$11
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$12
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$13
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$14
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$15
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$16
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$17
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$18
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$19
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$2
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$20
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$21
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$22
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$23
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$24
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$25
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$26
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$27
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$28
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$29
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$3
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$30
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$31
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$32
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$33
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$34
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$35
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$36
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$37
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$38
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$39
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$4
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$40
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$41
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$42
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$43
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$44
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$45
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$46
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$47
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$48
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$49
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$5
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$50
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$51
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$52
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$53
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$54
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$55
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$56
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$57
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$58
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$59
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$6
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$60
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$61
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$7
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$8
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$9
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$AddInts
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$BuggyMapFunction
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$Class1
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$Class2
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$DoubleComparator
+   core/src/test/java/org/apache/spark/JavaAPISuite.java -> org.apache.spark.JavaAPISuite$SomeCustomClass
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> org.apache.spark.JavaJdbcRDDSuite
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> org.apache.spark.JavaJdbcRDDSuite$1
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> org.apache.spark.JavaJdbcRDDSuite$2
+   core/src/test/java/org/apache/spark/JavaJdbcRDDSuite.java -> org.apache.spark.JavaJdbcRDDSuite$3
+   core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java -> org.apache.spark.launcher.SparkLauncherSuite
+   core/src/test/java/org/apache/spark/launcher/SparkLauncherSuite.java -> org.apache.spark.launcher.SparkLauncherSuite$SparkLauncherTestApp
+   core/src/test/java/org/apache/spark/memory/TaskMemoryManagerSuite.java -> org.apache.spark.memory.TaskMemoryManagerSuite
+   core/src/test/java/org/apache/spark/memory/TestMemoryConsumer.java -> org.apache.spark.memory.TestMemoryConsumer
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> org.apache.spark.serializer.TestJavaSerializerImpl
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> org.apache.spark.serializer.TestJavaSerializerImpl$DeserializationStreamImpl
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> org.apache.spark.serializer.TestJavaSerializerImpl$SerializationStreamImpl
+   core/src/test/java/org/apache/spark/serializer/TestJavaSerializerImpl.java -> org.apache.spark.serializer.TestJavaSerializerImpl$SerializerInstanceImpl
+   core/src/test/java/org/apache/spark/shuffle/sort/PackedRecordPointerSuite.java -> org.apache.spark.shuffle.sort.PackedRecordPointerSuite
+   core/src/test/java/org/apache/spark/shuffle/sort/ShuffleInMemorySorterSuite.java -> org.apache.spark.shuffle.sort.ShuffleInMemorySorterSuite
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.sort.UnsafeShuffleWriterSuite
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.sort.UnsafeShuffleWriterSuite$1
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.sort.UnsafeShuffleWriterSuite$1BadRecords
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.sort.UnsafeShuffleWriterSuite$2
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.sort.UnsafeShuffleWriterSuite$3
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.sort.UnsafeShuffleWriterSuite$4
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.sort.UnsafeShuffleWriterSuite$5
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.sort.UnsafeShuffleWriterSuite$CompressStream
+   core/src/test/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriterSuite.java -> org.apache.spark.shuffle.sort.UnsafeShuffleWriterSuite$PandaException
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.unsafe.map.AbstractBytesToBytesMapSuite
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.unsafe.map.AbstractBytesToBytesMapSuite$1
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.unsafe.map.AbstractBytesToBytesMapSuite$2
+   core/src/test/java/org/apache/spark/unsafe/map/AbstractBytesToBytesMapSuite.java -> org.apache.spark.unsafe.map.AbstractBytesToBytesMapSuite$CompressStream
+   core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOffHeapSuite.java -> org.apache.spark.unsafe.map.BytesToBytesMapOffHeapSuite
+   core/src/test/java/org/apache/spark/unsafe/map/BytesToBytesMapOnHeapSuite.java -> org.apache.spark.unsafe.map.BytesToBytesMapOnHeapSuite
+   core/src/test/java/org/apache/spark/util/collection/TestTimSort.java -> org.apache.spark.util.collection.TestTimSort
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorterSuite
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorterSuite$1
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorterSuite$2
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorterSuite$3
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorterSuite$4
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeExternalSorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeExternalSorterSuite$CompressStream
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeInMemorySorterSuite
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeInMemorySorterSuite$1
+   core/src/test/java/org/apache/spark/util/collection/unsafe/sort/UnsafeInMemorySorterSuite.java -> org.apache.spark.util.collection.unsafe.sort.UnsafeInMemorySorterSuite$2
+   core/src/test/java/test/org/apache/spark/JavaTaskCompletionListenerImpl.java -> test.org.apache.spark.JavaTaskCompletionListenerImpl
+   core/src/test/java/test/org/apache/spark/JavaTaskContextCompileCheck.java -> test.org.apache.spark.JavaTaskContextCompileCheck
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> org.apache.spark.AccumulatorSuite
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> org.apache.spark.AccumulatorSuite$
    core/src/test/scala/org/apache/spark/AccumulatorSuite.scala -> org.apache.spark.AccumulatorSuite$$anon$1

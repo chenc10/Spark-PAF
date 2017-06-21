@@ -208,7 +208,6 @@ private[spark] class TaskSchedulerImpl(
       }
       hasReceivedTask = true
     }
-    logInfo(" ----- ----- revive here: (1) submitTasks")
     backend.reviveOffers()
   }
 
@@ -263,6 +262,7 @@ private[spark] class TaskSchedulerImpl(
       availableCpus: Array[Int],
       tasks: Seq[ArrayBuffer[TaskDescription]]) : Boolean = {
     var launchedTask = false
+    logInfo("##### ##### resourceOfferSingleTaskSet: " +  taskSet.stageId)
     for (i <- 0 until shuffledOffers.size) {
       val execId = shuffledOffers(i).executorId
       val host = shuffledOffers(i).host
@@ -324,22 +324,9 @@ private[spark] class TaskSchedulerImpl(
               executorIdToTaskCount(execId) += 1
               executorsByHost(host) += execId
               executorIdToTid(execId) = tid
+              logInfo(" ##### allocate executor: " + execId.toString + " to task: " + tid.toString)
 
               executorIdToTaskSetManager(execId) = taskSet
-              if (executorIdToSign.contains(execId) && executorIdToSign(execId) == 2){
-                val currentTime = System.currentTimeMillis
-                cummulativeWasteTime += (currentTime - executorIdToLastIdleTime(execId))
- //               logInfo("##### ##### lastIdleTime: %d, currentTime: %d, cummulativeWasteTime: %d"
- //                 .format(executorIdToLastIdleTime(execId), currentTime, cummulativeWasteTime))
-              }
-              if (taskSet.threadId < 99) {
-                // if the current taskSet is from the foreground application
-//                logInfo("##### ##### set executorIdToSign(%s): 1".format(execId))
-                executorIdToSign(execId) = 1
-              } else {
-//                logInfo("##### ##### set executorIdToSign(%s): 0".format(execId))
-                executorIdToSign(execId) = 0
-              }
               availableCpus(i) -= CPUS_PER_TASK
               assert(availableCpus(i) >= 0)
               launchedTask = true
@@ -501,13 +488,7 @@ private[spark] class TaskSchedulerImpl(
       tid: Long,
       taskResult: DirectTaskResult[_]): Unit = synchronized {
 
-    val c_execId = c_taskIdToExecutorId(tid)
-    if ( executorIdToTid(c_execId) == tid && executorIdToSign(c_execId) == 1){
-      executorIdToLastIdleTime(c_execId) = System.currentTimeMillis
-      executorIdToSign(c_execId) = 2
-    }
-    val increasedValue = taskSetManager.handleSuccessfulTask(tid, taskResult)
-    cummulativeWasteTimeRigid += increasedValue
+    taskSetManager.handleSuccessfulTask(tid, taskResult)
 //    if (increasedValue > 0) {
 //      logInfo("##### ##### stage %d finish, increase cummulativeWastTimeRigid by: %d"
 //        .format(taskSetManager.stageId, increasedValue))
@@ -578,7 +559,6 @@ private[spark] class TaskSchedulerImpl(
       shouldRevive = rootPool.checkSpeculatableTasks()
     }
     if (shouldRevive) {
-      logInfo(" ----- ----- revive here: (4) checkSpeculatableTasks")
       backend.reviveOffers()
     }
   }
@@ -613,7 +593,6 @@ private[spark] class TaskSchedulerImpl(
     // Call dagScheduler.executorLost without holding the lock on this to prevent deadlock
     if (failedExecutor.isDefined) {
       dagScheduler.executorLost(failedExecutor.get)
-      logInfo(" ----- ----- revive here: (5) executorLost & failedExecutor.isDefined")
       backend.reviveOffers()
     }
   }

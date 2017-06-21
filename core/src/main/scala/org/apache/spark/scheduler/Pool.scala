@@ -63,6 +63,9 @@ private[spark] class Pool(
   var lSlopeArray: Array[Double] = null
   var rSlopeArray: Array[Double] = null
   //
+  def setAlpha(myAlpha: String): Unit = {
+    alpha = myAlpha.toDouble
+  }
   def setCurve(curveString: String, clusterSize: String): Unit = {
 //    logInfo("##### %d".format(curveString.length))
     val stringBuffer = curveString.split("-").toBuffer
@@ -245,6 +248,10 @@ private[spark] class Pool(
         if (shallDoAdjustment) {
           tmpGiverJob.targetAlloc -= 1;
           tmpGainJob.targetAlloc += 1;
+          logInfo("##### ##### job-" + tmpGiverJob.poolName +
+            "give one slot to job-" + tmpGainJob.poolName)
+          logInfo("##### ##### remaining:" + tmpGiverJob.targetAlloc.toString
+            + " / " + tmpGainJob.targetAlloc.toString)
           tmpGiverJob.update_slope();
           tmpGainJob.update_slope();
         }
@@ -262,6 +269,7 @@ private[spark] class Pool(
         jobList -= jobList.maxBy(_.rSlope);
       }
     }
+    logInfo("##### Finish first phase")
     while (s) {
       // terminate condition: no space for shifting
       // with one iteration, one giver job offers resources to one receiver job
@@ -274,28 +282,28 @@ private[spark] class Pool(
       logInfo("Enter iteration, tmpGiverJob: " + tmpGiverJob.poolName
         + " tmpGainJob: " + tmpGainJob.poolName)
       if (tmpGiverJob.lSlope >= tmpGainJob.rSlope) {
-        logInfo("1")
         s = false;
         shallDoAdjustment = false;
       }
       if (tmpGiverJob.targetAlloc == tmpGiverJob.minAlloc) {
-        logInfo("2")
         // if giverJob meets its fairness constrain
         // move tmpGiverJob to the finished (determined) set
         setG -= tmpGiverJob;
         setQ += tmpGiverJob;
         shallDoAdjustment = false;
         if (setG.length == 0) {
-          logInfo("3")
           // no jobs can give out resources
           s = false;
         }
       }
       if (shallDoAdjustment) {
-        logInfo("4")
         // conduct adjustment
         tmpGiverJob.targetAlloc -= 1;
         tmpGainJob.targetAlloc += 1;
+        logInfo("##### ##### job-" + tmpGiverJob.poolName +
+          "give one slot to job-" + tmpGainJob.poolName)
+        logInfo("##### ##### remaining:" + tmpGiverJob.targetAlloc.toString
+          + " / " + tmpGainJob.targetAlloc.toString)
         tmpGiverJob.update_slope();
         tmpGainJob.update_slope();
       }

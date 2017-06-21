@@ -1,3 +1,3 @@
-/media/psf/Home/PropheticScheduling/spark-1.6.1/external/flume-sink/target/scala-2.10/src_managed/main/compiled_avro/org/apache/spark/streaming/flume/sink/SparkFlumeProtocol.java
-/media/psf/Home/PropheticScheduling/spark-1.6.1/external/flume-sink/target/scala-2.10/src_managed/main/compiled_avro/org/apache/spark/streaming/flume/sink/SparkSinkEvent.java
-/media/psf/Home/PropheticScheduling/spark-1.6.1/external/flume-sink/target/scala-2.10/src_managed/main/compiled_avro/org/apache/spark/streaming/flume/sink/EventBatch.java
+/root/Spark-PAF/external/flume-sink/target/scala-2.10/src_managed/main/compiled_avro/org/apache/spark/streaming/flume/sink/SparkFlumeProtocol.java
+/root/Spark-PAF/external/flume-sink/target/scala-2.10/src_managed/main/compiled_avro/org/apache/spark/streaming/flume/sink/SparkSinkEvent.java
+/root/Spark-PAF/external/flume-sink/target/scala-2.10/src_managed/main/compiled_avro/org/apache/spark/streaming/flume/sink/EventBatch.java

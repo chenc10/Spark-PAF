@@ -779,195 +779,195 @@ products:
    sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> sql/hive/target/scala-2.10/classes/org/apache/spark/sql/hive/test/TestHiveSingleton$class.class
    sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> sql/hive/target/scala-2.10/classes/org/apache/spark/sql/hive/test/TestHiveSingleton.class
 binary dependencies:
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/ExtendedHiveQlParser.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/ExtendedHiveQlParser.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/ExtendedHiveQlParser.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/ExtendedHiveQlParser.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/ExtendedHiveQlParser.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> unsafe/target/spark-unsafe_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveInspectors.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveInspectors.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveInspectors.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveContext.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveInspectors.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveInspectors.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveInspectors.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveInspectors.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveInspectors.scala -> unsafe/target/spark-unsafe_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveInspectors.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveInspectors.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /root/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /home/hadoop/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveMetastoreCatalog.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /root/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /root/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> unsafe/target/spark-unsafe_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /home/hadoop/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /home/hadoop/.m2/repository/org/apache/avro/avro/1.7.7/avro-1.7.7.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /root/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /root/.m2/repository/org/apache/avro/avro/1.7.7/avro-1.7.7.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveStrategies.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveShim.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveStrategies.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveStrategies.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveStrategies.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveStrategies.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveStrategies.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveStrategies.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /root/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> unsafe/target/spark-unsafe_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientInterface.scala -> /home/hadoop/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientInterface.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/TableReader.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientInterface.scala -> /root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientInterface.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientInterface.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientInterface.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-cli/1.2.1.spark/hive-cli-1.2.1.spark.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientInterface.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /root/.m2/repository/org/spark-project/hive/hive-cli/1.2.1.spark/hive-cli-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /root/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/ClientWrapper.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> /root/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/IsolatedClientLoader.scala -> /home/hadoop/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/IsolatedClientLoader.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/HiveShim.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/IsolatedClientLoader.scala -> /root/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/IsolatedClientLoader.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/client/IsolatedClientLoader.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/client/IsolatedClientLoader.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/IsolatedClientLoader.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/package.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/package.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/IsolatedClientLoader.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/package.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/client/package.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateViewAsSelect.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateTableAsSelect.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateViewAsSelect.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateViewAsSelect.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateViewAsSelect.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateViewAsSelect.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateViewAsSelect.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/DescribeHiveTableCommand.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/DescribeHiveTableCommand.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/DescribeHiveTableCommand.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/CreateViewAsSelect.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/DescribeHiveTableCommand.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/DescribeHiveTableCommand.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/DescribeHiveTableCommand.scala -> /root/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/DescribeHiveTableCommand.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/DescribeHiveTableCommand.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/DescribeHiveTableCommand.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/DescribeHiveTableCommand.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveNativeCommand.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/DescribeHiveTableCommand.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveNativeCommand.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveNativeCommand.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveNativeCommand.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveNativeCommand.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveNativeCommand.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveTableScan.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveTableScan.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveNativeCommand.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveTableScan.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveTableScan.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveTableScan.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveTableScan.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveTableScan.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveTableScan.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /home/hadoop/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveTableScan.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /root/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /root/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /home/hadoop/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /home/hadoop/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/InsertIntoHiveTable.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /root/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> /home/hadoop/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/ScriptTransformation.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> /root/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> /root/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveUDFs.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveUDFs.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/commands.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveUDFs.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveUDFs.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveUDFs.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveUDFs.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveUDFs.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveUDFs.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFileOperator.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFileOperator.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFileOperator.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/hiveWriterContainers.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFileOperator.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFileOperator.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFileOperator.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFileOperator.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFileOperator.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFileOperator.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFilters.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFilters.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFileOperator.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFilters.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFilters.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFilters.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFilters.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFilters.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcFilters.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-common/2.4.0/hadoop-common-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/package.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /home/hadoop/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /home/hadoop/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /home/hadoop/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /home/hadoop/.m2/repository/org/apache/thrift/libthrift/0.9.2/libthrift-0.9.2.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /home/hadoop/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /home/hadoop/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/orc/OrcRelation.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/package.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /root/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /root/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.4.0/hadoop-mapreduce-client-core-2.4.0.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /root/.m2/repository/org/apache/thrift/libthrift/0.9.2/libthrift-0.9.2.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /root/.m2/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /root/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> core/target/spark-core_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> sql/catalyst/target/spark-catalyst_2.10-1.6.1.jar
    sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> sql/core/target/spark-sql_2.10-1.6.1.jar
-   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+   sql/hive/src/main/scala/org/apache/spark/sql/hive/test/TestHive.scala -> /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.131.x86_64/jre/lib/rt.jar
 source dependencies:
    sql/hive/src/main/scala/org/apache/spark/sql/hive/ExtendedHiveQlParser.scala -> sql/hive/src/main/scala/org/apache/spark/sql/hive/HiveQl.scala
    sql/hive/src/main/scala/org/apache/spark/sql/hive/ExtendedHiveQlParser.scala -> sql/hive/src/main/scala/org/apache/spark/sql/hive/execution/HiveNativeCommand.scala
