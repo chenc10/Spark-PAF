@@ -262,7 +262,7 @@ private[spark] class Pool(
         setG += jobList.minBy(_.lSlope);
         jobList -= jobList.minBy(_.lSlope);
       }
-      if (stopCase_H == 1) {
+      if (stopCase_H == 1 && jobList.size > 0) {
         // add new job to setH
         // skip test whether jobList.length > 0
         setH += jobList.maxBy(_.rSlope);
@@ -270,6 +270,7 @@ private[spark] class Pool(
       }
     }
     logInfo("##### Finish first phase")
+    s = true
     while (s) {
       // terminate condition: no space for shifting
       // with one iteration, one giver job offers resources to one receiver job
