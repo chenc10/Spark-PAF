@@ -183,7 +183,10 @@ private[spark] class Pool(
     }
     getFairAlloc()
     if (jobList.size < 2) {
-      this.targetAlloc = allResources
+      // find error 2017.6.28
+      if (jobList.size == 1) {
+        jobList(0).targetAlloc = allResources
+      }
       return
     }
     for (p <- jobList) {
@@ -227,7 +230,7 @@ private[spark] class Pool(
           stopCase_G = 1;
           shallDoAdjustment = false;
         }
-        if (tmpGiverJob.targetAlloc == tmpGiverJob.minAlloc) {
+        if (tmpGiverJob.targetAlloc <= tmpGiverJob.minAlloc) {
           // if giverJob meets its fairness constrain
           setG -= tmpGiverJob;
           setQ += tmpGiverJob;
@@ -243,6 +246,15 @@ private[spark] class Pool(
           s = false;
           stopCase_H = 1;
           shallDoAdjustment = false;
+        }
+        if (tmpGainJob.targetAlloc >= tmpGainJob.curve.size - 1) {
+          // if giverJob meets its fairness constrain
+          setH -= tmpGainJob;
+          shallDoAdjustment = false;
+          if (setH.length == 0) {
+            s = false;
+            stopCase_H = 1;
+          }
         }
         // conduct adjustment
         if (shallDoAdjustment) {
@@ -286,7 +298,7 @@ private[spark] class Pool(
         s = false;
         shallDoAdjustment = false;
       }
-      if (tmpGiverJob.targetAlloc == tmpGiverJob.minAlloc) {
+      if (tmpGiverJob.targetAlloc <= tmpGiverJob.minAlloc) {
         // if giverJob meets its fairness constrain
         // move tmpGiverJob to the finished (determined) set
         setG -= tmpGiverJob;
@@ -294,6 +306,14 @@ private[spark] class Pool(
         shallDoAdjustment = false;
         if (setG.length == 0) {
           // no jobs can give out resources
+          s = false;
+        }
+      }
+      if (tmpGainJob.targetAlloc >= tmpGainJob.curve.size - 1) {
+        setH -= tmpGainJob;
+        shallDoAdjustment = false;
+        if (setH.length == 0) {
+          // no jobs need to get more resources
           s = false;
         }
       }
